@@ -1,0 +1,23 @@
+.nosotros{
+    text-align: center;
+    
+}
+
+.acercaSakaChelas{
+    background-color: #FFA930;
+    color: #640002;
+    grid-row: 6;
+    
+}
+
+.acercaDuffTeam{
+    background-color: #FFA930;
+}
+
+.card-text{
+    background-color: white;
+}
+
+body{
+    background-image: url("/Proyecto/Proyecto_integrador_sakachelas/Assets/Img/fondo.jpg");
+}
