@@ -1,0 +1,37 @@
+header {
+background: #FDF6DB;
+}
+
+
+#logoHome{
+ 
+   width: 150px;
+    
+}
+
+#encabezadoLogo{
+    width: 450px;
+}
+#loginIcon{
+ 
+    width: 48px;
+}
+#cartIcon{
+
+    width: 48px;
+}
+
+.navbar{
+    background-color: #FFA931;
+    font-weight: bold;
+}
+
+.btnLogin{
+    align-items: center;
+    background-color: #150575;
+}
+
+
+
+ 
+

@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login SakáChelas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Assets/Styles/Login.css">
+    
+    <style>
+        body{
+            background-image: url(/Assets/Img/fondo.jpeg);
+        }
+      
+        .bg{
+          background-image: url(/Assets/Img/colCerveza.png);
+        }
+    </style>
+
+
+
+  </head>
+  <body>
+    <!------------------------------------------------------
+                       Encabezado
+-------------------------------------------------------->
+<header class="Container-fluid">
+  <img id="logoHome" src="/Assets/Img/logo.png">
+  <img class="mx-auto" id="encabezadoLogo" src="/Assets/Img/ribbon.png">
+  <img id="loginIcon" src="/Assets/Img/iconUser.png">
+  <img id="cartIcon" src="/Assets/Img/cart.png">
+
+  <form class="d-flex w-25" role="search">
+      <input class="form-control" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+    </form>
+<!------------------------------------------------------
+                NavBar
+-------------------------------------------------------->
+
+  <nav class="navbar navbar-expand-sm">
+      <div class="container">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" id="cervezasNavBar" href="#">CERVEZAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACTANOS</a>
+            </li>
+            
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+</header>
+<!-------------------------------------------------------------------------
+                             Login
+------------------------------------------------------------------------->
+    <div class="container bg-white bg-opacity-75 rounded-4 shadow">
+        <div class="row align-items-stretch my-5">
+          <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded-4">
+          </div>
+          <div class="col p-5">
+            <div class="text-black align-content-center">
+              <img src="/Assets/Img/logo.png" width="100px" alt="">
+             </div>
+  
+             <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+             <!--Inputs-------->
+             <form action="#">
+              <div class="mb-4">
+                <label for="email" class="form-label w-75">Correo electrónico</label>
+                <input type="email" class="form-control" name="email">
+              </div>
+              <div class="mb-4">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" name="password">
+              </div>
+              <div class="mb-4 form-check">
+                <input type="checkbox" name="connected" class="form-check-input">
+                <label for="connected" class="form-check-label">Mantenerme conectado</label>
+              </div>
+              <center>
+              <div class="my-2 p-1">
+              <button type="submit" class="btn btn-outline-dark">Iniciar sesión</button>
+            </div>
+          </center>
+                <!------Login con redes sociales---------------------->
+              
+            <div class="container w-100 my-5">
+                <div class="row text-center">
+                  <div class="col-12"><h4>Iniciar con</h4></div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button class="btn btn-outline-dark w-100 my-2" >
+                      <dvi class="row align-items-center">
+                        <div class="col-2">
+                          <img src="/Assets/Img/iconFb.png" width="48px" alt="">
+                        </div>
+                        <div class="col-10 text-center">
+                          Continua con facebook
+                        </div>
+                      </dvi>
+                    </button>
+                  </div>
+                  <div class="col">
+                    <button class="btn btn-outline-dark w-100 my-2" >
+                      <dvi class="row align-items-center">
+                        <div class="col-2">
+                          <img src="/Assets/Img/iconGl.png" width="48px" alt="">
+                        </div>
+                        <div class="col-10 text-center">
+                          Continua con Google
+                        </div>
+                      </dvi>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="my-3">
+                <span>¿No tienes cuenta? <a href="#">Registrate</a></span>  <br>
+                <span ><a href="#">Recuperar Password</a></span> 
+              </div>
+              
+             </form>
+          </div>
+        </div>
+  
+      </div>
+
+
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
