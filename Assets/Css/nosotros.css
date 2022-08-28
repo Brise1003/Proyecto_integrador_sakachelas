@@ -1,17 +1,29 @@
-.nosotros{
+.container{
     text-align: center;
-    
+    font-family: 'Roboto';
+    font-size: large;
 }
 
 .acercaSakaChelas{
     background-color: #FFA930;
     color: #640002;
-    grid-row: 6;
-    
+    font-weight: bold;
+    font-size: 45px;
+    padding: 15px;
 }
 
 .acercaDuffTeam{
     background-color: #FFA930;
+    color: #640002;
+    font-weight: bold;
+    font-size: 45px;
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+
+    justify-content: center;
 }
 
 .card-text{
@@ -20,4 +32,13 @@
 
 body{
     background-image: url("/Proyecto/Proyecto_integrador_sakachelas/Assets/Img/fondo.jpg");
+}
+
+.carousel-control-next-icon{
+    background-image: url("/Proyecto/Proyecto_integrador_sakachelas/Assets/Img/siguiente.png");
+    color: #640002;
+}
+
+.carousel-control-prev-icon{
+    background-image: url("/Proyecto/Proyecto_integrador_sakachelas/Assets/Img/anterior.png");
 }
