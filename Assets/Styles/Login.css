@@ -1,7 +1,15 @@
-#colo {
-background: #FDF6DB;
+
+
+body{
+    background-image: url(/Assets/Img/fondo.jpeg);
 }
 
+.bg{
+  background-image: url(/Assets/Img/colCerveza.png);
+}
+#colo {
+    background: #FDF6DB;
+    }
 
 #logoHome{
    width: 150px;
@@ -22,10 +30,44 @@ background: #FDF6DB;
 .navbar{
     background-color: #FFA931;
     font-weight: bold;
-    
+}
+
+body{
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 
 
 
+/*footer*/
+.footerRedesSociales{
+    font-family: 'Roboto';
+    color: #640002;
+    text-align: left;
+    padding: 10px;
+}
 
+footer{
+    background-color: #FFA930;
+    padding: 10px;
+}
+
+.footerTexto{
+    text-align: c;
+    font-family: 'Roboto';
+    color: #640002;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.eviteExceso{
+    font-family: 'Roboto';
+    color: #640002;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.linkFooter{
+    color: #640002;
+    font-family: 'Roboto';
+}
