@@ -1,0 +1,59 @@
+#colo {
+    background: #FDF6DB;
+    }
+
+#logoHome{
+   width: 150px;
+}
+
+#encabezadoLogo{
+    width: 450px;
+   
+}
+#loginIcon{
+ 
+    width: 48px;
+}
+#cartIcon{
+    width: 48px;
+}
+
+.navbar{
+    background-color: #FFA931;
+    font-weight: bolder;
+    color: #640002;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+/* FOOTER */
+
+.footerRedesSociales{
+    color: #640002;
+    text-align: left;
+    padding: 10px;
+}
+
+footer{
+    background-color: #FFA930;
+    padding: 10px;
+}
+
+.footerTexto{
+    text-align: center;
+    color: #640002;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.eviteExceso{
+    color: #640002;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.linkFooter{
+    color: #640002;
+}
