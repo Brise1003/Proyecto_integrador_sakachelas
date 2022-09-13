@@ -1,5 +1,5 @@
 body{
-    background-image: url(/Assets/fondo.jpeg);
+    background-image: url(/Assets/Img/fondo.jpeg);
     margin: 0px;
     padding: 0px;
 
@@ -34,8 +34,12 @@ body{
     font-family: 'Roboto Flex', sans-serif;
 }
 
+.container{
+    font-family: 'Roboto Flex', sans-serif;
+}
+
 .page-content {
-    bordeer: 1px;
+    border: 1px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -47,55 +51,10 @@ body{
 .dropdown{
     padding: 5px;
     margin: 5px ;
-    font-size:
     font-family:'Roboto' ;
     background: none;
 }
 
-.btn
-
-   /* 
-.botonFiltro{
-    background-color: #626962;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-
-.filtro{
-    position: relative;
-    display: inline-block;
-  }
-
-  .dropdown-content {
-    display: none;
-    position:
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-
-  dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-
- .dropdown-content a:hover {background-color: #f1f1f1}
-
- .filtro:hover .dropdown-content {
-    display: block;
-  }
-  
-  .filtro:hover .botonFiltro {
-    background-color: #303230;
-  }
-*/
   .panelFiltros {
     margin: 10px;
     padding-left: 10px;
@@ -193,4 +152,8 @@ footer{
 .linkFooter{
     color: #640002;
     font-family: 'Roboto';
+}
+
+#navTexto{
+    color: #640002;
 }

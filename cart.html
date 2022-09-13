@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Carrito Prueba</title>
+
+    <!-- Vinculo a iconos -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Vinculo para Roboto  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"> 
+
+    <!-- Vinculo para Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script> 
+
+    <!-- Vinculo a CSS -->
+    <link rel="stylesheet" href="./Assets/Css/cart.css">
+
+</head>
+<body>
+<!------------------------------------------------------
+                       Encabezado
+-------------------------------------------------------->
+
+<nav class="navbar p-3" id="colo">
+    <div class="container-fluid">
+      <a class="navbar-item" href="#">
+      <img src="./Assets/Img/Logo Sakáchelas.png" alt="" width="70" height="60">
+      </a>
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <a class="navbar-item" href="#">
+          <img src="Assets/Img/ribbon.png" alt="" width="200" height="80">
+        </a>
+      </div>
+      <div class="ms-auto">
+        <a class="navbar-item" href="#">
+          <img src="./Assets/Img/login.jpeg" alt="" width="30" height="30">
+        </a>
+        <a class="cart" href="cart.html">
+          <img src="./Assets/Img/carrito.jpeg" alt="" width="30" height="30"><span  class="position-absolute top-25 end-175 translate-middle" id="contador">0</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <!------------------------------------------------------
+                  NavBar
+  -------------------------------------------------------->
+  
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="nav-link" id="navTexto" href="#">CERVEZAS</a>
+      <form class="d-flex d-lg-block col-sm-5 col-md-5 col-lg-5 ms-lg-5" role="search">
+        <input class="form-control " type="search" placeholder="¿Qué buscas?" aria-label="Search">
+      </form>
+      <button class="navbar-toggler primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navTexto">PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navTexto">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id = "navTexto">CONTACTANOS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+
+    <div class="container-products">
+        <div class="product-header">
+            <h5 class="product-title" id="carText">&nbsp;&nbsp;&nbsp;&nbsp;PRODUCT</h5>
+            <h5 class="price sm-hide" id="carText">PRICE</h5>
+            <h5 class="quantity" id="carText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QUANTITY</h5>
+            <h5 class="total" id="carText">TOTAL</h5>
+        </div>
+        <div class="products">
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+        <!------------------------------------------------------
+                  FOOTER
+-------------------------------------------------------->
+
+<footer>
+
+    <!-- Tel, correo y redes sociales -->
+    <div class="container-fluid">
+        <div class="row">
+  
+          <!-- Redes sociales -->
+          <div class="col-md-4">
+            <div class="footerRedesSociales">
+                <h6> Tel: +52 55 55 55 55 </h6>
+                <h6> Correo: correo@outlook.com </h6>
+                <h6> Redes sociales </h6>
+                <a href="https://www.facebook.com/" target="_blank"><img src="Assets/Img/icono-fc.png" alt="logotipo de Facebook" height="30px"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="Assets/Img/icono-ig.jpg" alt="logotipo de Instagram" height="30px"></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><img src="Assets/Img/icono-tw.png" alt="logotipo de twitter" height="30px"></a>
+            </div>
+          </div>
+  
+          <!-- Aviso de privacidad -->
+          <div class="col-md-3">
+            <h6 class="footerTexto">
+             <a href="" class="linkFooter">Aviso de privacidad</a>
+            </h6>
+          </div>
+  
+  
+          <!-- Contacto -->
+          <div class="col-md-2">
+            <h6 class="footerTexto">
+              <a href="" class="linkFooter">Contacto</a>
+            </h6>
+          </div>
+  
+          <!-- Nosotros -->
+          <div class="col-md-3">
+            <h6 class="footerTexto">
+                <a href="" class="linkFooter">Nosotros</a>
+            </h6>
+          </div>
+  
+        </div>
+        <!-- Cierre del row -->
+  
+     <div class="eviteExceso">
+      Evite el exceso
+     </div>
+  
+  
+    </div>
+    <!-- cierre de container-fluid -->
+  
+  </footer>
+
+         <!-- Vinculo a JS -->
+         <script src="./Assets/Js/cart.js"></script>
+
+
+ 
+
+
+       <!-- Vinculo a Bootstrap -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+     
+     
+       <!-- Vinculo a iconos -->
+       <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</body>
+</html>
