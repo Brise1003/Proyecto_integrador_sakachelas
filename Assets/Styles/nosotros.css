@@ -1,5 +1,7 @@
 /* BODY */
 
+
+
 .container{
     padding: 0;
 }
@@ -71,7 +73,7 @@
 }
 
 body{
-    background-image: url(/Proyecto/Proyecto_integrador_sakachelas/Assets/Img/fondo.jpg); 
+    background-image: url(/Assets/Img/fondo.jpg); 
     padding: 0;
 }
 
@@ -180,40 +182,27 @@ body{
 
 
 /* FOOTER */
+/* FOOTER */
 
 .footerRedesSociales{
-    font-family: 'Roboto';
-    color: #640002;
     text-align: left;
     padding: 10px;
+    font-weight: bold;
+    color: #640002;
 }
 
 footer{
     background-color: #FFA930;
     padding: 10px;
-}
-
-.footerTexto{
-    text-align: c;
-    font-family: 'Roboto';
     color: #640002;
-    font-weight: bolder;
-    padding: 10px;
-}
-
-.eviteExceso{
-    font-family: 'Roboto';
-    color: #640002;
-    font-weight: bolder;
-    text-align: center;
+    font-weight: bold;
 }
 
 .linkFooter{
     color: #640002;
-    font-family: 'Roboto';
-} 
-
-.card-text{
-    justify-content: center;
 }
 
+/*color de numero de carrito*/
+#contador{
+    color: #000;
+}

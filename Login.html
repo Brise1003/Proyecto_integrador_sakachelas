@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/Assets/Img/logo.png">
   <title>Login SakáChelas</title>
   <!--BootStrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -24,25 +25,29 @@
 </head>
 
 <body>
+
+  <audio autoplay>
+    <source src="/Assets/lata.mp3" type="audio/mpeg">
+  </audio>
   <!------------------------------------------------------
                        Encabezado
 -------------------------------------------------------->
   <nav class="navbar p-3" id="colo">
     <div class="container">
-      <a class="navbar-item" href="#">
+      <a class="navbar-item" href="/Principal.html">
         <img src="/Assets/Img/logo.png" alt="" width="70" height="60">
       </a>
       <div class="position-absolute top-50 start-50 translate-middle">
-        <a class="navbar-item" href="#">
+        <a class="navbar-item">
           <img src="/Assets/Img/ribbon.png" alt="" width="200" height="80">
         </a>
       </div>
       <div class="ms-auto">
-        <a class="navbar-item" href="#">
-          <img src="/Assets/Img/iconUser.png" alt="" width="30" height="30">
-        </a>
-        <a class="navbar-item" href="#">
-          <img src="/Assets/Img/cart.png" alt="" width="30" height="30">
+         <a class="navbar-item m-1" href="/Login.html">
+          <img src="/Assets/Img/iconUser.png"  width="30px" height="30px">
+        </a> 
+        <a class="cart" href="/cart.html">
+          <img src="/Assets/Img/cart.png"  width="30px" height="30px"><span  class="position-absolute top-25 end-175 translate-middle" id="contador">0</span>
         </a>
       </div>
     </div>
@@ -52,7 +57,7 @@
 -------------------------------------------------------->
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="nav-link" id="cervezasNavBar" href="#">CERVEZAS</a>
+      <a class="nav-link" style="color: #640002" id="cervezasNavBar" href="/catálogo.html">CERVEZAS</a>
       <form class="d-flex d-lg-block col-sm-5 col-md-5 col-lg-5 ms-lg-5" role="search">
         <input class="form-control" type="search" placeholder="¿Qué buscas?" aria-label="Search">
       </form>
@@ -63,13 +68,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">PRODUCTOS</a>
+            <a class="nav-link" style="color: #640002" href="#">PRODUCTORES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">NOSOTROS</a>
+            <a class="nav-link" style="color: #640002" href="/nosotros.html">NOSOTROS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACTANOS</a>
+            <a class="nav-link" style="color: #640002" href="/Contactonew.html">CONTACTANOS</a>
           </li>
         </ul>
       </div>
@@ -92,31 +97,31 @@
         <form class="formulario" id="formulario" action="#">
 
           <div clas="grupo__correo" id="grupo__correo">
-          <div class="mb-4">
-            <label for="email" class="form-label w-75">Correo electrónico
-              <i class="formulario__validacion-estado fas fa-times-circle"></i>
-            </label>
-            
-            <input id="correo" type="email" class="form-control" name="correo">
-            <p class="formulario__input-error">El correo introducido es incorrecto.</p>
-          </div>
-          
-        </div>
+            <div class="mb-4">
+              <label for="email" class="form-label w-75">Correo electrónico
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </label>
 
-        <div clas="grupo__password" id="grupo__password">
-          <div class="mb-4">
-            <label for="input-group" class="form-label">Password</label>
-            <i class="formulario__validacion-estado fas fa-times-circle"></i>
-            <div class="input-group">
-              <input ID="txtPassword" type="Password" Class="form-control" name="password">
-              <div class="input-group-append">
-                <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()">
-                  <span class="fa fa-eye-slash icon"></span> </button>
-              </div>
-              
+              <input id="correo" type="email" class="form-control" name="correo">
+              <p class="formulario__input-error">El correo introducido es incorrecto.</p>
             </div>
-            <p class="formulario__input-error">La contraseña es incorr5ecta.</p>
+
           </div>
+
+          <div clas="grupo__password" id="grupo__password">
+            <div class="mb-4">
+              <label for="input-group" class="form-label">Password</label>
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              <div class="input-group">
+                <input ID="txtPassword" type="Password" Class="form-control" name="password">
+                <div class="input-group-append">
+                  <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()">
+                    <span class="fa fa-eye-slash icon"></span> </button>
+                </div>
+
+              </div>
+              <p class="formulario__input-error">La contraseña es incorr5ecta.</p>
+            </div>
           </div>
 
           <div class="mb-4 form-check">
@@ -184,38 +189,46 @@
     <div class="container-fluid">
       <div class="row">
 
+        <!-- Redes sociales -->
         <div class="col-md-4">
           <div class="footerRedesSociales">
-            <h6> Tel: +52 55 55 55 55 </h6>
-            <h6> Correo: correo@outlook.com </h6>
-            <h6> Redes sociales </h6>
-            <img src="/Assets/Img/iconFb.png" alt="" height="30px">
-            <img src="/Assets/Img/iconIg.png" alt="" height="30px">
-            <img src="/Assets/Img/iconTw.png" alt="" height="30px">
+              <h6> Tel: +52 55 55 55 55 </h6>
+              <h6> Correo: correo@outlook.com </h6>
+              <h6> Redes sociales </h6>
+              <a href="https://www.facebook.com/" target="_blank"><img src="Assets/Img/icono-fc.png" alt="logotipo de Facebook" height="30px"></a>
+              <a href="https://www.instagram.com/" target="_blank"><img src="Assets/Img/icono-ig.jpg" alt="logotipo de Instagram" height="30px"></a>
+              <a href="https://twitter.com/?lang=es" target="_blank"><img src="Assets/Img/icono-tw.png" alt="logotipo de twitter" height="30px"></a>
           </div>
         </div>
 
         <!-- Aviso de privacidad -->
-        <div class="col-md-3">
-          <h6>
-            <a href="#" class="linkFooter">Aviso de privacidad</a>
-          </h6>
-        </div>
+      <div class="col-md-2">
+        <h6>
+          <a onclick="aviso()" class="linkFooter">Aviso de privacidad</a>
+        </h6>
+      </div>
 
-
-        <!-- Contacto -->
+        <!-- Terminos y condiciones -->
         <div class="col-md-2">
           <h6>
-            <a href="#" class="linkFooter">Contacto</a>
+            <a href="/termycond.html" class="linkFooter">Términos y condiciones</a>
           </h6>
         </div>
 
-        <!-- Nosotros -->
-        <div class="col-md-3">
-          <h6>
-            <a href="#" class="linkFooter">Nosotros</a>
-          </h6>
-        </div>
+      <!-- Contacto -->
+      <div class="col-md-2">
+        <h6>
+          <a href="/Contactonew.html" class="linkFooter">Contacto</a>
+        </h6>
+      </div>
+
+      <!-- Nosotros -->
+      <div class="col-md-2">
+        <h6>
+          <a href="/nosotros.html" class="linkFooter">Nosotros</a>
+        </h6>
+      </div>
+
 
       </div>
 
@@ -234,10 +247,17 @@
     crossorigin="anonymous"></script>
   <!--jquery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <!--conexion js-->
+   <script src="./Assets/Js/cart.js"> </script>
   <!--Login.js-->
   <script src="/Assets/Js/Login.js"></script>
   <!--validation-->
   <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  <!--swal-->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="/Assets/Js/main.js"></script>
+ 
+
 </body>
 
 </html>

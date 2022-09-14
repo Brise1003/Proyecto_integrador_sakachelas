@@ -1,123 +1,273 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
-
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap");
 
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+    /* // background-image: url(/assets/img/fondoProyecto.jpg); */
+
+}
+
+/* Inicio color navbar */
+#cervezasNavBar.nav-link{
+    color: #640002;
+}
+#prod.nav-link{
+    color: #640002;
+}
+#nos.nav-link{
+    color: #640002;
+}
+#cont.nav-link{
+    color: #640002;
+}
+/* Termina Color NavBar */
+
+
+#colo {
+    background: #FDF6DB;
+    }
+
+#logoHome{
+   width: 150px;
 }
 
 
-body,
-input,
-textarea{
-  font-family: "Poppins", sans-serif; 
+#encabezadoLogo{
+    width: 450px;
+   
+}
+#loginIcon{
+ 
+    width: 48px;
+}
+#cartIcon{
+    width: 48px;
+}
+
+.navbar{
+    background-color: #FFA931;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+
+
+/* FOOTER */
+
+.footerRedesSociales{
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    color: #640002;
+}
+
+footer{
+    background-color: #FFA930;
+    padding: 10px;
+    color: #640002;
+    font-weight: bold;
+}
+
+.linkFooter{
+    color: #640002;
+}
+/* FOOTER */
+
+.contacto{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px, 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(/assets/img/fondoProyecto.jpg);
+    background-size: cover;
+}
+
+
+.contacto .contenido{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contacto .contenido h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.contacto .contenido p{
+    font-weight: 300;
+    color: rgb(0, 0, 0);
 }
 
 .container{
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  padding: 2rem;
-  background-color: #fafafa;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(/Assets/Img/fondoProyecto.jpg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
-.form{
-  width: 100%;
-  max-width: 820px;
-  height: 500px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  overflow: hidden;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
-.form-contacto{
-  background-color: #1abc9c;
-  position: relative;
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
 }
 
-.circulo {
-  border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, #149279 );
-  position: absolute;
+.container .contactInfo .box .icon{
+    min-height: 60px;
+    height: 60px;
+    background: url(/assets/img/fondoProyecto.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
 }
 
-.circulo.uno{
-  width: 130px;
-  height: 130px;
-  top: 130px;
-  right: -40px;
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    font-weight: 300;
+} 
+
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #000;
 }
 
-.circulo.dos{
-  width: 80px;
-  height: 80px;
-  top: 10px;
-  right: 30px;
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 0%;
 }
 
-.form-contacto:before{
-  content: "";
-  position: absolute;
-  width: 26px;
-  height: 26px;
-  background-color: #1abc9c;
-  transform: rotate(45deg);
-  top: 50px;
-  left: -13px
+.contactForm h2{
+    font-size: 30px;
+    font-weight: 500;   
 }
 
-form{
-  padding: 2.5rem 2.2rem;
-  z-index: 10;
-  overflow: hidden;
-  position: relative;
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
 }
 
-.input-container textarea{
-  padding: 1rem 0.66rem
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
 }
 
-.title{
-  color: #fff;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1;
-  margin-bottom: 0.7rem;
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
 }
 
-.input-container{
-  position: relative;
-  margin: 1rem 0;
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
 }
 
-label{
-  display: none;
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
 }
 
-.input{
-  width: 100%;
-  outline: none;
-  border: 2px solid #fafafa;
-  background: none;
-  padding: 0.6rem 1.2rem;
-  color: #fff;
-  font-weight: 500;
-  font-size: 0.95rem;
-  letter-spacing: 0.5px;
-  border-radius: 25px;
-  transition: 0.3s;
+@media (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,
+    .contactForm{
+        width: 100%;
+    }
+}
+
+.formulario__validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
 }
 
 
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
 
+.formulario__input-error-activo {
+	display: block;
+}
+
+/*color de numero de carrito*/
+#contador{
+    color: #000;
+}
