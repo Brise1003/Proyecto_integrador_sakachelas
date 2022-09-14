@@ -24,6 +24,26 @@ body{
     font-family: 'Roboto';
 }
 
+.row{
+    display: flex;
+    justify-content:center;
+    
+}
+#kali{
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+#copado{
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+#fractal{
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+
+
 /* FOOTER */
 
 .footerRedesSociales{
@@ -53,3 +73,4 @@ footer{
 .linkFooter{
     color: #640002;
 }
+

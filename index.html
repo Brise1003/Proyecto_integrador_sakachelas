@@ -13,8 +13,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
 
   <!-- Link de CDN para Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
 
   <style>
     body {
@@ -24,62 +27,61 @@
 </head>
 
 <body>
-
   <audio autoplay>
     <source src="/Assets/lata.mp3" type="audio/mpeg">
   </audio>
   <!------------------------------------------------------
                        Encabezado
 -------------------------------------------------------->
-
-  <nav class="navbar p-3" id="colo">
-    <div class="container">
-      <a class="navbar-item" href="#">
-        <img src="/Assets/Img/logo.png" alt="" width="70" height="60">
-      </a>
-      <div class="position-absolute top-50 start-50 translate-middle">
-        <a class="navbar-item" href="#">
-          <img src="/Assets/Img/ribbon.png" alt="" width="200" height="80">
+  <header>
+    <nav class="navbar p-3" id="colo">
+      <div class="container">
+        <a class="navbar-item" href="">
+          <img src="/Assets/Img/logo.png" alt="" width="70" height="60">
         </a>
+        <div class="position-absolute top-50 start-50 translate-middle">
+          <a class="navbar-item" href="">
+            <img src="/Assets/Img/ribbon.png" alt="" width="200" height="80">
+          </a>
+        </div>
+        <div class="ms-auto">
+          <a class="navbar-item" href="">
+            <img src="/Assets/Img/iconUser.png" alt="" width="30" height="30">
+          </a>
+          <a class="navbar-item" href="">
+            <img src="/Assets/Img/cart.png" alt="" width="30" height="30">
+          </a>
+        </div>
       </div>
-      <div class="ms-auto">
-        <a class="navbar-item" href="#">
-          <img src="/Assets/Img/iconUser.png" alt="" width="30" height="30">
-        </a>
-        <a class="navbar-item" href="#">
-          <img src="/Assets/Img/cart.png" alt="" width="30" height="30">
-        </a>
-      </div>
-    </div>
-  </nav>
-  <!------------------------------------------------------
+    </nav>
+    <!------------------------------------------------------
                 NavBar position-absolute top-50 start-50 translate-middle 
 -------------------------------------------------------->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="nav-link" id="cervezasNavBar" href="#">CERVEZAS</a>
-      <form class="d-flex d-lg-block col-sm-5 col-md-5 col-lg-5 ms-lg-5" role="search">
-        <input class="form-control " type="search" placeholder="¿Qué buscas?" aria-label="Search">
-      </form>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">PRODUCTOS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">NOSOTROS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONTACTANOS</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="nav-link" id="cervezasNavBar" style="color: #640002" href="#">CERVEZAS</a>
+        <form class="d-flex d-lg-block col-sm-5 col-md-5 col-lg-5 ms-lg-5" role="search">
+          <input class="form-control " type="search" placeholder="¿Qué buscas?" aria-label="Search">
+        </form>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" style="color: #640002" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" style="color: #640002" href="#">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #640002" href="#">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #640002" href="#">CONTACTANOS</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
   </header>
   <br>
 
@@ -205,8 +207,8 @@
 
   <div class="container-fluid px-0">
     <div class="row">
-        <img src="/Assets/Img/FinalCerveza.png">
-      </div>
+      <img src="/Assets/Img/FinalCerveza.png">
+    </div>
   </div>
   <br>
   <!-- FOOTER -->
