@@ -29,9 +29,9 @@
 /* FORMULARIO */
 
 .form {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+    /* gap: 10px; */
 }
 
 .form__label{
@@ -73,7 +73,7 @@
     display: block;
 }
 
-.form__validacion-estado{
+.form__validacion-estado {
     position: absolute;
     right: 10px;
     bottom: 7px;
@@ -81,12 +81,15 @@
     font-size: 16px;
     opacity: 0;
 }
+.form__validacion-estado-p{
+    margin-right: 40px;
+}
 
 .form__checkbox{
     margin-right: 10px;
 }
 
-.form__mensaje{
+.form__mensaje {
     height: 40px;
     line-height: 40px;
     background-color: #f66060;
@@ -95,12 +98,12 @@
     display: none;
 }
 
-.form__mensaje-activo{
+.form__mensaje-activo {
     display: block;
 }
 
 /* ------------------ */
-.form__mensaje p{
+.form__mensaje p {
     margin: 0;
 }
 /* ------------------ */
@@ -111,12 +114,12 @@
     align-items: center;
 }
 
-.form__btn{
-    height: 40px;
+.form__btn {
+    /* height: 40px; */
     line-height: 40px;
     width: 30%;
-    background-color: #008037;
-    color: #640002;
+    /* background-color: #008037; */
+    color: black;
     font-weight: bold;
     border: none;
     border-radius: 3px;
@@ -124,17 +127,17 @@
     transition: .1s ease all;
 }
 
-.form__btn:hover{
+.form__btn:hover {
     box-shadow: 3px 0 30px rgba(163, 163, 163, 1);
 }
 
-.form__mensaje-exito{
+.form__mensaje-exito {
     font-size: 14px;
     color: #119200;
     display: none;
 }
 
-.form__mensaje-exito-activo{
+.form__mensaje-exito-activo {
     display: block;
 }
 
