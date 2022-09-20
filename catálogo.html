@@ -23,9 +23,7 @@
 </head>
 
 <body>
-  <audio autoplay>
-    <source src="/Assets/lata.mp3" type="audio/mpeg">
-  </audio>
+
   <!------------------------------------------------------
                        Encabezado
 -------------------------------------------------------->
@@ -71,7 +69,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#" id="navTexto">PRODUCTORES</a>
+            <a class="nav-link" href="/Productores.html" id="navTexto">PRODUCTORES</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/nosotros.html" id="navTexto">NOSOTROS</a>
@@ -86,8 +84,60 @@
   <br>
   <br>
 
-  <!--contenido página-->
+  <!--Filtro-->
+<nav class="navbar" id="filtronav">
+ 
 
+  <li class=" dropdown">
+      <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">Marca
+      </button>
+
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="">Marca 1</a></li>
+        <li><a class="dropdown-item" href="">Marca 2</a></li>
+        <li><a class="dropdown-item" href="">Marca 3</a></li>
+      </ul>
+    
+  
+</li>
+
+<li class="dropdown">
+    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">Precio
+    </button>
+
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="">Mayor a menor </a></li>
+      <li><a class="dropdown-item" href="">Menor a mayor</a></li>
+    </ul>
+  
+</li>
+
+<li class="dropdown">
+ 
+    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">Tipo
+    </button>
+
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="">Negra</a></li>
+      <li><a class="dropdown-item" href="">Lager</a></li>
+      <li><a class="dropdown-item" href="">Abadia</a></li>
+    </ul>
+  
+</li>
+
+<li class=" dropdown">
+
+    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">Estilo
+    </button>
+
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="">Estilo 1</a></li>
+      <li><a class="dropdown-item" href="">Estilo 2</a></li>
+      <li><a class="dropdown-item" href="">Estilo 3</a></li>
+    </ul>
+ 
+</li>
+</nav>
 
   <!--aqui empieza el boton desplegable-->
   <div class="allcontent">
@@ -157,13 +207,19 @@
 
 
         <!--aqui va el catalogo-->
+<<<<<<< HEAD
         <div class="col-sm-10" id="cata">
 
 
 
+=======
+       
+        <div class="col-sm-10 ">
+>>>>>>> 1ef550cfe66cd51b69f265db814b7125606d1b38
           <section class="NovidadesSection">
-            <main class="mainDestacados">
+            
               <h3>Catálogo</h3>
+<<<<<<< HEAD
               <section class="containerProdutos">
                 <!---->
 
@@ -184,6 +240,22 @@
                         </h5>
                       </div>
   
+=======
+                <div class="produto">
+                  <div class="card-body">
+                    <img src="./Assets/Img/cerveza1.jpeg" class="produto__img">
+                    <div class="productDescription">
+
+                      <h4 class="produto__title">First Bach </h4>
+                      <h6 id="producto-description">American Brown Ale <br>
+                        Cerveza oscura <br>
+                        ABV 5.5%</h6>
+                      <h5 class="card-text">$90.00 <a class="add-cart cart1" href="#"><i
+                            class="produto__icon fas fa-cart-plus"><img src="/Assets/Img/cart.png" alt=""
+                              class="img_carrito"></i></a>
+                        <input type="hidden" value="90" />
+                      </h5>
+>>>>>>> 1ef550cfe66cd51b69f265db814b7125606d1b38
                     </div>
                   </div>
                 </div>
@@ -207,7 +279,7 @@
                 </div>
 
 
-                <div class="produto">
+                <div class="produto  ">
                   <div class="card-body">
                     <img src="./Assets/Img/cerveza3.jpeg" class="produto__img">
                     <div class="productDescription">
@@ -315,8 +387,8 @@
                             class="produto__icon fas fa-cart-plus"><img src="./Assets/Img/cart.png" alt=""
                               class="img_carrito"></i></a>
                     </div>
-                  </div>
-                </div>
+               
+               
         </div>
         </section>
         </main>

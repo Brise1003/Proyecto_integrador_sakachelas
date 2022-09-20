@@ -97,13 +97,8 @@ a{
 
 }
 .produto{
-        
-    justify-content: center;
     float: left; 
-   padding: 10px;
-   justify-content: space-between;
-   font-family: 'Roboto';
-   margin: 5px;
+    font-family: 'Roboto';
    }
 
 .produto__img{
@@ -163,4 +158,8 @@ footer{
 
 #navTexto{
     color: #640002;
+}
+
+#filtronav{
+    background: none;
 }

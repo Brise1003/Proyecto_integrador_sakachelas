@@ -165,7 +165,7 @@ function displayCart() {
 
         productContainer.innerHTML += `
             <div class="basketTotalContainer">
-                <h4 class="basketTotalTitle">Basket Total</h4>
+                <h4 class="basketTotalTitle">TOTAL CANASTA</h4>
                 <h4 class="basketTotal">$${cart},00</h4>
             </div>`
 

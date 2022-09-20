@@ -15,7 +15,7 @@ function obtener_localstorage() {
       color: '#640002',
       background: '#FFF5CE',
       showCancelButton: true,
-      confirmButtonText: 'Yes',
+      confirmButtonText: 'Sí',
       cancelButtonText: 'No',
       cancelButtonColor: '#008037',
       confirmButtonColor: '#008037',
