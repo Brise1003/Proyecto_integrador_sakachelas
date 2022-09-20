@@ -5,6 +5,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.card{
+    display: flex;
+    align-content: center;
+}
+
 header {
     background-image: url('images/drew.png');
     background-repeat: no-repeat;

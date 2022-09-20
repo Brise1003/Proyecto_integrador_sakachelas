@@ -1,0 +1,197 @@
+/* HEADER */
+#navTexto{
+    color: #640002;
+}
+
+#colo {
+    background: #FDF6DB;
+    }
+
+#logoHome{
+   width: 150px;
+}
+
+#encabezadoLogo{
+    width: 450px;
+   
+}
+#loginIcon{
+ 
+    width: 48px;
+}
+#cartIcon{
+    width: 48px;
+}
+
+.navbar{
+    background-color: #FFA931;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.carousel-item {
+    transition: transform 1s ease-in-out;
+  }
+  
+  
+/* BODY */
+
+#Contactame{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    color: black;
+}
+
+body{
+    background-image: url("/Proyecto/Proyecto_integrador_sakachelas/Assets/Img/fondo.jpg"); 
+    font-family: 'Roboto';
+    padding: 0;
+}
+
+.acercaSakaChelas{
+    background-color: #FFA930;
+    color: #640002;
+    font-weight: bold;
+    font-size: 45px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.textoAcerca{
+    text-align: center;
+}
+
+.acercaDuffTeam{
+    background-color: #FFA930;
+    color: #640002;
+    font-weight: bold;
+    font-size: 45px;
+    padding: 15px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+#titulosAcerca{
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ICONOS DE CARRUSEL */
+.carousel-control-next-icon{
+    background-image: url("/Proyecto/Proyecto_integrador_sakachelas/Assets/Img/siguiente.png");
+}
+
+.carousel-control-prev-icon{
+    background-image: url("/Proyecto/Proyecto_integrador_sakachelas/Assets/Img/anterior.png");
+}
+
+
+/* FOOTER */
+
+.footerRedesSociales{
+    font-family: 'Roboto';
+    color: #640002;
+    text-align: left;
+    padding: 10px;
+}
+
+footer{
+    background-color: #FFA930;
+    padding: 10px;
+}
+
+.footerTexto{
+    text-align: c;
+    font-family: 'Roboto';
+    color: #640002;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.eviteExceso{
+    font-family: 'Roboto';
+    color: #640002;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.linkFooter{
+    color: #640002;
+    font-family: 'Roboto';
+} 
+
+.card-text{
+    justify-content: center;
+}
+
+
+
+/* CARRUSEL */
+
+.carousel_container-fluid {
+	position: relative;
+}
+
+.carousel_anterior,
+.carousel_siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: 50%;
+	/* cursor: pointer; */
+	line-height: 30px;
+	/* text-align: center; */
+	background: none;
+	color: blue;
+	opacity: 20%;
+}
+
+.carousel_anterior:hover,
+.carousel_siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel_anterior {
+	left: -30px;
+}
+
+.carousel_siguiente {
+	right: -30px;
+}
+
+.carousel_lista {
+	overflow: hidden;
+}
+
+.carousel_elemento {
+	text-align: center;
+}
+
+.carousel_indicadores .glider-dot {
+	/* display: block; */
+	width: 30px;
+	height: 4px;
+	background: blue;
+	opacity: .2;
+	/* border-radius: 0; */
+}
+
+.carousel_indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel_indicadores .glider-dot.active {
+	opacity: 1;
+}
+
