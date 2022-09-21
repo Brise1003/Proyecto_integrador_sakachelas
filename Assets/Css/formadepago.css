@@ -152,10 +152,9 @@ button, input, select, textarea {
 
 .container-products {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 95%;
     justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
     margin: 0 auto;
     margin-top: 20px;
     padding: 20px;
@@ -171,7 +170,7 @@ button, input, select, textarea {
 }
 
 .product-header {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     border-bottom: 4px solid black;
@@ -194,19 +193,20 @@ button, input, select, textarea {
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
+    justify-content: right;
     
 }
 
 .quantity {
-    width: 20%;
+    width: 25%;
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
-	text-align: center;
+	justify-content: center;
 }
 
 .total {
-    width: 20%;
+    width: 15%;
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
