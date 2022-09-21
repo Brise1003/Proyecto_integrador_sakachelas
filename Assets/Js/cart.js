@@ -3,59 +3,61 @@ let carts = document.querySelectorAll('.add-cart');
 // ARREGLO CON LOS PRODUCTOS
 let products = [ 
     {
-        name: "Cerveza 1",
-        tag: "cerveza1",
-        price: 90,
-        inCart: 0  
-    },
-    {
-        name: "Cerveza 2",
-        tag: "cerveza2",
-        price: 90,
+        name: "First Batch",
+        tag: "firstbatch",
+        price: 20,
         inCart: 0
     },
     {
-        name: "Cerveza 3",
-        tag: "cerveza3",
-        price: 90,
+        name: "Big Poppa K",
+        tag: "bigpoppak",
+        price: 15,
         inCart: 0
     },
     {
-        name: "Cerveza 4",
-        tag: "cerveza4",
-        price: 90,
+        name: "K 101",
+        tag: "k101",
+        price: 25,
         inCart: 0
     },
     {
-        name: "Cerveza 5",
-        tag: "cerveza5",
-        price: 90,
+        name: "Perla",
+        tag: "perla",
+        price: 15,
         inCart: 0
     },
     {
-        name: "Cerveza 6",
-        tag: "cerveza6",
-        price: 90,
+        name: "Prieta",
+        tag: "prieta",
+        price: 15,
         inCart: 0
     },
     {
-        name: "Cerveza 7",
-        tag: "cerveza7",
-        price: 90,
+        name: "Trigueña",
+        tag: "trigueña",
+        price: 15,
         inCart: 0
     },
     {
-        name: "Cerveza 8",
-        tag: "cerveza8",
-        price: 90,
+        name: "Rubia",
+        tag: "rubia",
+        price: 15,
         inCart: 0
     },
     {
-        name: "Cerveza 9",
-        tag: "cerveza9",
-        price: 90,
+        name: "Mestiza",
+        tag: "mestiza",
+        price: 15,
+        inCart: 0
+    },
+    {
+        name: "Fractal",
+        tag: "fractal",
+        price: 15,
         inCart: 0
     }
+
+
 ];
 
 // FUNCIÓN AÑADIR AL CARRITO
@@ -149,24 +151,24 @@ function displayCart() {
     
     if( cartItems && productContainer ) {
         productContainer.innerHTML = '';
-        Object.values(cartItems).map( (item, index) => {
+        Object.values(cartItems).map( (item, catálago) => {
             productContainer.innerHTML += 
             `<div class="product"><ion-icon name="close-circle"></ion-icon><img src="./Assets/Img/${item.tag}.jpeg" />
             <span class="sm-hide">${item.name}</span>
             </div>
-            <div class="price sm-hide">$${item.price},00</div>
+            <div class="price sm-hide">$${item.price}.00</div>
             <div class="quantity">
                 <ion-icon class="decrease " name="arrow-dropleft-circle"></ion-icon>
                     <span>${item.inCart}</span>
                 <ion-icon class="increase" name="arrow-dropright-circle"></ion-icon>   
             </div>
-            <div class="total">$${item.inCart * item.price},00</div>`;
+            <div class="total">$${item.inCart * item.price}.00</div>`;
         });
 
         productContainer.innerHTML += `
             <div class="basketTotalContainer">
-                <h4 class="basketTotalTitle">TOTAL CANASTA</h4>
-                <h4 class="basketTotal">$${cart},00</h4>
+                <h4 class="basketTotalTitle">Total a pagar</h4>
+                <h4 class="basketTotal">$${cart}.00</h4>
             </div>`
 
         deleteButtons();
@@ -243,20 +245,4 @@ function deleteButtons() {
 onLoadCartNumbers();
 displayCart();
 
-
-// Alerta
-//confirmación de edad 
-// swal.fire({
-//     title: "Uso de cookies",
-//     confirmButtonText: "Aceptado"
-    
-// })
-
-// //aviso de privacidad
-// swal.fire({
-//     title:"Aviso de privacidad",
-//     html: "<p>Teléfonos de la oficina de privacidad: 555-55 </p> <br> Correo electrónico: ventas@cervexxa.mx <br> <b>Definiciones</b>. <br>Datos personales: Cualquier información concerniente a una persona física identificada o identificable. <br>Titular: La persona física (TITULAR) a quien identifica o corresponden los datos personales. <br>Responsable: Persona física o moral de carácter privado que decide sobre el tratamiento de los datos personales. <br>Tratamiento: La obtención, uso (que incluye el acceso, manejo, aprovechamiento, transferencia o disposición de datos personales), divulgación o almacenamiento de datos personales por cualquier medio. <br>Transferencia: Toda comunicación de datos realizada a persona distinta del responsable o encargado del tratamiento.<br>Derechos ARCO: Derechos de acceso, rectificación, cancelación y oposición. <br>Consentimiento Tácito: Se entenderá que el titular ha consentido en el tratamiento de los datos, cuando habiéndose puesto a su disposición el Aviso de Privacidad, no manifieste su oposición.<br><b>Fines de la información.</b> <br>Sus datos personales serán utilizados para los siguientes fines:<br>Fines de marketing <br>Fines de contacto <br>Fines para conocer requerimientos del proyecto",
-//     width:`85%`
-// })
-     
 
