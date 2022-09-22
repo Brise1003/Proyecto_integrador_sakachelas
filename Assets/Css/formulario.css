@@ -23,6 +23,7 @@
 .navbar{
     background-color: #FFA931;
     font-weight: bold;
+    color: #640002;
 }
 
 
@@ -199,41 +200,31 @@ body{
 }
 /* ------------- Mediaqueries-------------------- */
 
-
-
-
+/*color de numero de carrito*/
+#contador{
+    color: #000;
+}
 
 /* FOOTER */
 
 .footerRedesSociales{
-    font-family: 'Roboto';
-    color: #640002;
     text-align: left;
     padding: 10px;
+    font-weight: bold;
+	color: #640002;
 }
 
 footer{
     background-color: #FFA930;
     padding: 10px;
-    margin-top: 20px;
-}
-
-.footerTexto{
-    text-align: c;
-    font-family: 'Roboto';
     color: #640002;
-    font-weight: bolder;
-    padding: 10px;
-}
-
-.eviteExceso{
-    font-family: 'Roboto';
-    color: #640002;
-    font-weight: bolder;
-    text-align: center;
+    font-weight: bold;
 }
 
 .linkFooter{
-    color: #640002;
-    font-family: 'Roboto';
+	color: #640002;
+}
+
+.eviteExceso{
+    text-align: center;
 }

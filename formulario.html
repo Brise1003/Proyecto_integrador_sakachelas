@@ -24,26 +24,29 @@
 
 </head>
 <body>
-    
+  <audio autoplay>
+    <source src="/Assets/lata.mp3" type="audio/mpeg">
+  </audio>
 <!------------------------------------------------------
                        Encabezado
 -------------------------------------------------------->
 <nav class="navbar p-3" id="colo">
   <div class="container">
-    <a class="navbar-item" href="#">
+    <a class="navbar-item" href="/Principal.html">
       <img src="/Assets/Img/logo.png" alt="" width="70" height="60">
     </a>
     <div class="position-absolute top-50 start-50 translate-middle">
-      <a class="navbar-item" href="#">
+      <a class="navbar-item">
         <img src="/Assets/Img/ribbon.png" alt="" width="200" height="80">
       </a>
     </div>
     <div class="ms-auto">
-      <a class="navbar-item" href="#">
+      <a class="navbar-item" href="/Login.html">
         <img src="/Assets/Img/iconUser.png" alt="" width="30" height="30">
       </a>
-      <a class="navbar-item" href="#">
-        <img src="/Assets/Img/cart.png" alt="" width="30" height="30">
+      <a class="cart" href="/cart.html">
+        <img src="/Assets/Img/cart.png" alt="" width="30" height="30"><span
+        class="position-absolute top-25 end-175 translate-middle" id="contador">0</span>
       </a>
     </div>
   </div>
@@ -53,9 +56,9 @@
 -------------------------------------------------------->
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="nav-link" id="cervezasNavBar" href="#">CERVEZAS</a>
+      <a class="nav-link" id="cervezasNavBar" href="/catálogo.html">CERVEZAS</a>
       <form class="d-flex d-lg-block col-sm-5 col-md-5 col-lg-5 ms-lg-5" role="search">
-        <input class="form-control " type="search" placeholder="¿Qué buscas?" aria-label="Search">
+        <input class="form-control" type="search" placeholder="¿Qué buscas?" aria-label="Search">
       </form>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,10 +70,10 @@
             <a class="nav-link" href="#">PRODUCTOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">NOSOTROS</a>
+            <a class="nav-link" href="/nosotros.html">NOSOTROS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACTANOS</a>
+            <a class="nav-link" href="/Contactonew.html">CONTACTANOS</a>
           </li>
         </ul>
       </div>
@@ -224,38 +227,45 @@
       <div class="container-fluid">
         <div class="row">
  
-          <div class="col-md-4">
-            <div class="footerRedesSociales">
-                <h6> Tel: +52 55 55 55 55 </h6>
-                <h6> Correo: correo@outlook.com </h6>
-                <h6> Redes sociales </h6>
-                <!-- <img src="/Proyecto/Proyecto_integrador_sakachelas/Assets/Img/icono-fc.png" alt="" height="30px">
-                <img src="/Proyecto/Proyecto_integrador_sakachelas/Assets/Img/icono-ig.jpg" alt="" height="30px">
-                <img src="/Proyecto/Proyecto_integrador_sakachelas/Assets/Img/icono-tw.png" alt="" height="30px"> -->
-            </div>
-          </div>
-          
-          <!-- Aviso de privacidad -->
-          <div class="col-md-3">
-            <h6 class="footerTexto">
-             <a href="" class="linkFooter">Aviso de privacidad</a>
-            </h6>
-          </div>
-          
-  
-          <!-- Contacto -->
-          <div class="col-md-2">
-            <h6 class="footerTexto">
-              <a href="" class="linkFooter">Contacto</a>
-            </h6>  
-          </div>
-          
-          <!-- Nosotros -->
-          <div class="col-md-3">
-            <h6 class="footerTexto">
-                <a href="" class="linkFooter">Nosotros</a>
-            </h6>
-          </div>
+          <!-- Redes sociales -->
+      <div class="col-md-4">
+        <div class="footerRedesSociales">
+            <h6> Tel: +52 55 55 55 55 </h6>
+            <h6> Correo: correo@outlook.com </h6>
+            <h6> Redes sociales </h6>
+            <a href="https://www.facebook.com/" target="_blank"><img src="Assets/Img/icono-fc.png" alt="logotipo de Facebook" height="30px"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="Assets/Img/icono-ig.jpg" alt="logotipo de Instagram" height="30px"></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"><img src="Assets/Img/icono-tw.png" alt="logotipo de twitter" height="30px"></a>
+        </div>
+      </div>
+
+      <!-- Aviso de privacidad -->
+    <div class="col-md-2">
+      <h6>
+        <a onclick="aviso()" class="linkFooter">Aviso de privacidad</a>
+      </h6>
+    </div>
+
+      <!-- Terminos y condiciones -->
+      <div class="col-md-2">
+        <h6>
+          <a href="/termycond.html" class="linkFooter">Términos y condiciones</a>
+        </h6>
+      </div>
+
+    <!-- Contacto -->
+    <div class="col-md-2">
+      <h6>
+        <a href="/Contactonew.html" class="linkFooter">Contacto</a>
+      </h6>
+    </div>
+
+    <!-- Nosotros -->
+    <div class="col-md-2">
+      <h6>
+        <a href="/nosotros.html" class="linkFooter">Nosotros</a>
+      </h6>
+    </div>
           
         </div>
         
@@ -276,6 +286,13 @@
 <script src="/Assets/Js/formulario.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+ <!--conexion js-->
+ <script src="./Assets/Js/cart.js"> </script>
+ <!--Js swal-->
+ <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <script src="/Assets/Js/main.js"></script>
+
 
 </body>
 </html>
