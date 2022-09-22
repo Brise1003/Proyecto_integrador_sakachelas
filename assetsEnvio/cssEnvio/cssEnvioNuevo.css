@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+    
+
+}
+
+
+
+/* Inicio color navbar */
+#cervezasNavBar.nav-link{
+    color: #640002;
+}
+#prod.nav-link{
+    color: #640002;
+}
+#nos.nav-link{
+    color: #640002;
+}
+#cont.nav-link{
+    color: #640002;
+}
+/* Termina Color NavBar */
+
+
+#colo {
+    background: #FDF6DB;
+    }
+
+#logoHome{
+   width: 150px;
+}
+
+
+#encabezadoLogo{
+    width: 450px;
+   
+}
+#loginIcon{
+ 
+    width: 48px;
+}
+#cartIcon{
+    width: 48px;
+}
+
+.navbar{
+    background-color: #FFA931;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Roboto Flex', sans-serif;
+    background: url(/assets/img/fondoProyecto.jpg);
+    
+}
+
+
+/* .logoEnvio{
+  display: block;
+  margin-left: 800px;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 110px;
+  height: 100px;
+} */
+
+
+/* FOOTER */
+
+.footerRedesSociales{
+    font-family: 'Roboto';
+    color: #640002;
+    text-align: left;
+    padding: 10px;
+}
+
+footer{
+    background-color: #FFA930;
+    padding: 10px;
+}
+
+.footerTexto{
+    text-align: c;
+    font-family: 'Roboto';
+    color: #640002;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.eviteExceso{
+    font-family: 'Roboto';
+    color: #640002;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.linkFooter{
+    color: #640002;
+    font-family: 'Roboto';
+}
+
+
+@import url("https://rsms.me/inter/inter.css");
+
+:root {
+  --color-gray: #737888;
+  --color-lighter-gray: #e3e5ed;
+  --color-light-gray: #f7f7fa;
+}
+
+
+.container{
+    align-items: center;
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    
+}
+
+
+/* #dirEnvio{
+    background-color: white;
+    position: relative;
+    align-items: center;
+    
+    
+} */
+
+
+/* .envioForm{
+    background-color: white;
+} */
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+p {
+  color: var(--color-gray);
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: var(--color-light-gray);
+  border: 0;
+  margin: 2rem 0;
+}
+
+
+.form {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-lighter-gray);
+  padding: .5rem;
+  border-radius: .25rem;
+}
+
+.field__label {
+  color: var(--color-gray);
+  font-size: 0.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem
+}
+
+.field__input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+.field:focus-within {
+  border-color: #000;
+}
+
+.fields {
+  display: grid;
+  grid-gap: 2.5rem;
+}
+.fields--2 {
+  grid-template-columns: 1fr 1fr;
+}
+.fields--3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button {
+  background-color: #000;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: block;
+  color: #fff;
+  width: 25%;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  align-items: center;
+}
+.button:focus-visible {
+  background-color: #333;
+}
+
+
+
+

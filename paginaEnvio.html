@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direccion de Envio</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/307ddc93d2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+   <!------------------------------------------------------
+                       Encabezado
+-------------------------------------------------------->
+   <nav class="navbar p-3" id="colo">
+    <div class="container-fluid">
+      <a class="navbar-item" href="#">
+        <img src="/Assets/Img/logo.png" alt="" width="70" height="60">
+      </a>
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <a class="navbar-item" href="#">
+          <img src="/Assets/Img/ribbon.png" alt="" width="200" height="80">
+        </a>
+      </div>
+      <div class="ms-auto">
+        <a class="navbar-item" href="#">
+          <img src="/Assets/Img/iconUser.png" alt="" width="30" height="30">
+        </a>
+        <a class="navbar-item" href="#">
+          <img src="/Assets/Img/cart.png" alt="" width="30" height="30">
+        </a>
+      </div>
+    </div>
+   </nav>
+
+   <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="nav-link" id="cervezasNavBar" href="#">CERVEZAS</a>
+      <form class="d-flex d-lg-block col-sm-5 col-md-5 col-lg-5 ms-lg-5" role="search">
+        <input class="form-control " type="search" placeholder="¿Qué buscas?" aria-label="Search">
+      </form>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" id="prod" href="#">PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nos" href="#">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="cont" href="#">CONTACTANOS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!------------------------------------------------------
+                  NavBar position-absolute top-50 start-50 translate-middle 
+  -------------------------------------------------------->
+  
+  <!-- DIRECCION DE ENVIO INICIO -->
+
+
+<br>
+<br>
+<section class="envio">
+
+  <div class="container" id="dirEnvio">
+    <div class="contenido">
+      <h2>Direccion de Envio</h2>
+      <p>Porfavor ingrese los detalles de su envio.</p>
+    </div>
+    <div class="logoEnvio">
+      <img src="/assets/img/logo.png" alt="" width="70" height="60">
+    </div>
+    
+    <div class="envioForm">
+    <div class="fields fields--2">
+      <label class="field">
+        <span class="field__label" for="firstname">Nombre</span>
+        <input class="field__input" type="text" id="firstname"/>
+      </label>
+      <label class="field">
+        <span class="field__label" for="lastname">Apellidos</span>
+        <input class="field__input" type="text" id="lastname"/>
+      </label>
+    </div>
+    <br>
+    <label class="field">
+      <span class="field__label" for="address">Direccion</span>
+      <input class="field__input" type="text" id="address"/>
+    </label>
+    <br>
+    <label class="field">
+      <span class="field__label" for="country">Pais</span>
+      <select class="field__input" id="country">
+        <option value=""></option>
+        <option value="unitedstates">United States</option>
+        <option value="mexico">Mexico</option>
+      </select>
+    </label>
+    <br>
+    <div class="fields fields--3">
+      <label class="field">
+        <span class="field__label" for="zipcode">Codigo Postal</span>
+        <input class="field__input" type="text" id="zipcode" />
+      </label>
+      <label class="field">
+        <span class="field__label" for="city">Ciudad</span>
+        <input class="field__input" type="text" id="city" />
+      </label>
+      <label class="field">
+        <span class="field__label" for="state">Estado</span>
+        <select class="field__input" id="state">
+          <option value=""></option>
+          <option value="aguascalientes">Aguacalientes</option>
+          <option value="cdmx">Ciudad de Mexico</option>
+          <option value="jalisco">Jalisco</option>
+          <option value="nl">Nuevo Leon</option>'
+          <option value="sinaloa">Sinaloa</option>
+        </select>
+      </label>
+    </div>
+  </div>
+    <hr>
+    <button class="button">Continue</button>
+  </div>
+</section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <!-- DIRECCION DE ENVIO FINAL -->
+
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <!-- Tel, correo y redes sociales -->
+      <!-- <div class="container-fluid"> -->
+          <div class="container-fluid">
+              <div class="row">
+       
+                <div class="col-md-4">
+                  <div class="footerRedesSociales">
+                      <h6> Tel: +52 55 55 55 55 </h6>
+                      <h6> Correo: correo@outlook.com </h6>
+                      <h6> Redes sociales </h6>
+                      <img src="/assets/img/iconFb.png" alt="" height="30px">
+                      <img src="/assets/img/iconIg.png" alt="" height="30px">
+                      <img src="/assets/img/iconTw.png" alt="" height="30px">
+                  </div>
+                </div>
+                
+                <!-- Aviso de privacidad -->
+                <div class="col-md-3">
+                  <h6 class="footerTexto">
+                   <a href="" class="linkFooter">Aviso de privacidad</a>
+                  </h6>
+                </div>
+                
+        
+                <!-- Contacto -->
+                <div class="col-md-2">
+                  <h6 class="footerTexto">
+                    <a href="" class="linkFooter">Contacto</a>
+                  </h6>  
+                </div>
+                
+                <!-- Nosotros -->
+                <div class="col-md-3">
+                  <h6 class="footerTexto">
+                      <a href="" class="linkFooter">Nosotros</a>
+                  </h6>
+                </div>
+                
+              </div>
+              
+           </div>
+           
+           <div class="eviteExceso">
+            Evite el exceso
+           </div>
+          <!-- </div> -->
+              
+          </div>        
+      </footer>
+  
+
+    <!-- Link de CDN para Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- JavaScript Form -->
+    <script src="/assets/js/contacto.js"></script>
+</body>
+</html>
