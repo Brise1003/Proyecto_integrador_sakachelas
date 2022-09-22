@@ -1,0 +1,165 @@
+body{
+    background-image: url(/Assets/Img/fondo.jpeg);
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.card-body{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 0 auto;
+    /* padding: 100px; */
+}
+
+#colo {
+    background: #FDF6DB;
+    }
+
+#logoHome{
+   width: 150px;
+}
+
+#encabezadoLogo{
+    width: 450px;
+   
+}
+#loginIcon{
+ 
+    width: 48px;
+}
+#cartIcon{
+    width: 48px;
+}
+
+.navbar{
+    background-color: #FFA931;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Roboto Flex';
+}
+
+.container{
+    font-family: 'Roboto Flex';
+}
+
+.page-content {
+    border: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#filterfor{
+    text-align: center;
+}
+
+.dropdown{
+    padding: 5px;
+    margin: 5px ;
+    font-family: 'Roboto Flex';
+    background: none;
+}
+
+  .panelFiltros {
+    margin: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+    display: inline-block;
+  }
+
+  #desplegable{
+    background:none;
+    align-items:center;
+  }
+
+ .tablaLinks {
+    padding: 0px;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    border-width: 10px;
+    width: 100px;
+    text-decoration: none;
+}
+.dropdown-menu{
+    font-family: 'Roboto Flex';
+
+}
+a{
+    color: black;
+}
+#filterfor{
+    font-family: 'Roboto Flex';
+    color: black
+
+}
+.produto{
+    float: left; 
+    font-family: 'Roboto Flex';
+   }
+
+.produto__img{
+    width: 200px;
+    height: 200px;
+}
+
+.img_carrito{
+    width: 23px;
+    height: 23px;
+    justify-content: left;
+    
+}
+
+.produto__title{
+    text-align: center;
+    font-family: 'Roboto Flex';
+}
+
+
+
+#descripcion_cerv{
+    justify-content: left;
+    font-family: 'Roboto Flex';
+}
+.footerRedesSociales{
+    font-family: 'Roboto Flex';
+    color: #640002;
+    text-align: left;
+    padding: 10px;
+}
+
+footer{
+    background-color: #FFA930;
+    padding: 10px;
+}
+
+.footerTexto{
+    text-align: c;
+    font-family: 'Roboto Flex';
+    color: #640002;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.eviteExceso{
+    font-family: 'Roboto Flex';
+    color: #640002;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.linkFooter{
+    color: #640002;
+    font-family: 'Roboto Flex';
+}
+
+#navTexto{
+    color: #640002;
+}
+
+#filtronav{
+    background: none;
+}

@@ -1,0 +1,255 @@
+
+
+#colo {
+    background: #FDF6DB;
+    }
+
+#logoHome{
+   width: 150px;
+}
+
+
+#encabezadoLogo{
+    width: 450px;
+   
+}
+#loginIcon{
+ 
+    width: 48px;
+}
+#cartIcon{
+    width: 48px;
+}
+
+.navbar{
+    background-color: #FFA931;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Roboto Flex';
+    background: url(/assets/img/fondoProyecto.jpg);
+}
+
+
+
+
+/* FOOTER */
+
+.footerRedesSociales{
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    color: #640002;
+}
+
+footer{
+    background-color: #FFA930;
+    padding: 10px;
+    color: #640002;
+    font-weight: bold;
+    text-align: center;
+}
+
+.linkFooter{
+    color: #640002;
+}
+/* FOOTER */
+
+.contacto{
+    position: relative;
+    min-height: 100vh;
+    /* padding: 50px, 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+
+
+.contacto .contenido{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contacto .contenido h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.contacto .contenido p{
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    width: 100%;
+    /* display:flex; */
+    justify-content: center;
+    align-items: center;
+
+    /* margin-top: 30px; */
+}
+
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    text-align: center;
+}
+
+.container .contactInfo .box .icon{
+    min-height: 60px;
+    height: 60px;
+    background: url(/assets/img/fondoProyecto.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    font-weight: 300;
+} 
+
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #000;
+    
+}
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.contactForm h2{
+    font-size: 30px;
+    font-weight: 500;   
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+    /* .container{
+        flex-direction: column;
+    } */
+    .container .contactInfo{
+        margin-bottom: 40px;
+    }
+    .container .contactInfo,
+    .contactForm{
+        width: 100%;
+    }
+}
+
+.formulario__validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+
+
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
+}
+
+/*color de numero de carrito*/
+#contador{
+    color: #000;
+}

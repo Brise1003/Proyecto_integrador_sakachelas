@@ -7,14 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sakáchelas</title>
 
-  <link rel="stylesheet" href="Assets/Styles/Productores.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+ 
 
   <!-- Link de CDN para Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="Assets/Styles/Productores.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
 
   <style>
     body {
@@ -30,20 +32,21 @@
   <header>
     <nav class="navbar p-3" id="colo">
       <div class="container">
-        <a class="navbar-item" href="">
+        <a class="navbar-item" href="/Principal.html">
           <img src="/Assets/Img/logo.png" alt="" width="70" height="60">
         </a>
         <div class="position-absolute top-50 start-50 translate-middle">
-          <a class="navbar-item" href="">
+          <a class="navbar-item">
             <img src="/Assets/Img/ribbon.png" alt="" width="200" height="80">
           </a>
         </div>
         <div class="ms-auto">
-          <a class="navbar-item" href="">
+          <a class="navbar-item" href="/Login.html">
             <img src="/Assets/Img/iconUser.png" alt="" width="30" height="30">
           </a>
-          <a class="navbar-item" href="">
-            <img src="/Assets/Img/cart.png" alt="" width="30" height="30">
+          <a class="cart" href="/cart.html">
+            <img src="/Assets/Img/cart.png" alt="" width="30" height="30"><span
+            class="position-absolute top-25 end-175 translate-middle" id="contador">0</span>
           </a>
         </div>
       </div>
@@ -53,7 +56,7 @@
 -------------------------------------------------------->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="nav-link" id="cervezasNavBar" style="color: #640002" href="#">CERVEZAS</a>
+        <a class="nav-link" id="cervezasNavBar" style="color: #640002" href="/catálogo.html">CERVEZAS</a>
         <form class="d-flex d-lg-block col-sm-5 col-md-5 col-lg-5 ms-lg-5" role="search">
           <input class="form-control " type="search" placeholder="¿Qué buscas?" aria-label="Search">
         </form>
@@ -64,13 +67,13 @@
         <div class="collapse navbar-collapse" style="color: #640002" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" style="color: #640002" href="#">PRODUCTOS</a>
+              <a class="nav-link" style="color: #640002" href="/Productores.html">PRODUCTORES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="color: #640002" href="#">NOSOTROS</a>
+              <a class="nav-link" style="color: #640002" href="/nosotros.html">NOSOTROS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="color: #640002" href="#">CONTACTANOS</a>
+              <a class="nav-link" style="color: #640002" href="/Contactonew.html">CONTACTANOS</a>
             </li>
           </ul>
         </div>
@@ -80,36 +83,43 @@
   <br>
   <br>
 <!-- PRODUCTORES -->
-<div class="container-fluid text-center">
+<div class="container-fluid text-center" id="productores">
   <h1>NUESTROS PRODUCTORES</h1>
   <br>
-  <div class="row">
-    <div class="col-8" id="kali">
+  <!-- <div class="row"> -->
+    <!-- <div class="container-fluid px-0">
+      <div class="row" >
+        <img src="/Assets/Img/KALIBREWS 1.png" id="prod1">
+        <br>
+        <br>
+        <br>
+        <h3 id="textprod">
+          La casa KALI BREWS nace por el deseo de aportar nuevos matices al paladar del mercado mexicano aportando lo mejor de lúpulos, maltas internacionales y/o regionales así como adjuntos propios de la región... como lo son el cacao de nuestra stout, la miel de nuestra pale ale así como los dulces tradicionales de café en nuestra brown ale, obteniendo mezclas únicas de una calidad excepcional específicamente diseñadas para ser una caricia al gusto.
+        </h3>
+      </div>
+    </div>
+    <br> -->
+
+    <div class="col">
       <img src="/Assets/Img/KALIBREWS 1.png">
-      <br>
-      <br>
-      <br>
-      <h3>
+
+      <h3 id="textprod">
         La casa KALI BREWS nace por el deseo de aportar nuevos matices al paladar del mercado mexicano aportando lo mejor de lúpulos, maltas internacionales y/o regionales así como adjuntos propios de la región... como lo son el cacao de nuestra stout, la miel de nuestra pale ale así como los dulces tradicionales de café en nuestra brown ale, obteniendo mezclas únicas de una calidad excepcional específicamente diseñadas para ser una caricia al gusto.
       </h3>
     </div>
 
-    <div class="col-8" id="copado">
+    <div class="col">
       <img src="/Assets/Img/COPADO 1.png">
-      <br>
-      <br>
-      <br>
-      <h3>
+ 
+      <h3 id="textprod">
         Cervecería pionera en la revolución cervecera mexicana. Con su slogan: "La cerveza nos une". Ha creado cervezas de autor, procesadas de manera artesana con insumos naturales, que dan como resultado 5 exquisitos estilos. Café, cacao, vainilla o frutas son los elementos que Copado le ha añadido como un toque distintivo a las cervezas, cuya producción compara con una receta de cocina.
       </h3>
     </div>
 
-    <div class="col-8" id="fractal">
+    <div class="col">
       <img src="/Assets/Img/FRACTAL 2.png">
-      <br>
-      <br>
-      <br>
-      <h3>
+
+      <h3 id="textprod">
         En Fractal, nos inspiró el crear desde cero una marca y poder hacer algo distinto a lo que se conoce dentro de la industria, retarnos a hacer las cosas diferentes y la pasión que tenemos es algo que nos diferencia del resto.
       </h3>
     </div>
@@ -129,47 +139,59 @@
   <footer>
     <!-- Tel, correo y redes sociales -->
     <!-- <div class="container-fluid"> -->
-    <div class="container-fluid footer">
+    <div class="container">
       <div class="row">
-        <div class="col-md-4">
+  
+        <!-- Redes sociales -->
+        <div class="col-md-2">
           <div class="footerRedesSociales">
-            <h6> Tel: +52 55 55 55 55 </h6>
-            <h6> Correo: correo@outlook.com </h6>
-            <h6> Redes sociales </h6>
-            <img src="/Assets/Img/icono-fc.png" alt="" height="30px">
-            <img src="/Assets/Img/icono-ig.jpg" alt="" height="30px">
-            <img src="/Assets/Img/icono-tw.png" alt="" height="30px">
+              <h6> Tel: +52 55 55 55 55 </h6>
+              <h6> Correo: correo@outlook.com </h6>
+              <h6> Redes sociales </h6>
+              <a href="https://www.facebook.com/" target="_blank"><img src="Assets/Img/icono-fc.png" alt="logotipo de Facebook" height="30px"></a>
+              <a href="https://www.instagram.com/" target="_blank"><img src="Assets/Img/icono-ig.webp" alt="logotipo de Instagram" height="30px"></a>
+              <a href="https://twitter.com/?lang=es" target="_blank"><img src="Assets/Img/icono-tw.png" alt="logotipo de twitter" height="30px"></a>
           </div>
         </div>
-
+  
         <!-- Aviso de privacidad -->
-        <div class="col-md-3">
-          <h6 class="footerTexto">
-            <a href="" class="linkFooter">Aviso de privacidad</a>
-          </h6>
-        </div>
-
-
-        <!-- Contacto -->
-        <div class="col-md-2">
-          <h6 class="footerTexto">
-            <a href="" class="linkFooter">Contacto</a>
-          </h6>
-        </div>
-
-        <!-- Nosotros -->
-        <div class="col-md-3">
-          <h6 class="footerTexto">
-            <a href="" class="linkFooter">Nosotros</a>
-          </h6>
-        </div>
-
+      <div class="col-md-3">
+        <h6>
+          <a onclick="aviso()" class="linkFooter">Aviso de privacidad</a>
+        </h6>
       </div>
-
+  
+        <!-- Terminos y condiciones -->
+        <div class="col-md-3">
+          <h6>
+            <a href="/termycond.html" class="linkFooter">Términos y condiciones</a>
+          </h6>
+        </div>
+  
+      <!-- Contacto -->
+      <div class="col-md-2">
+        <h6>
+          <a href="/Contactonew.html" class="linkFooter">Contacto</a>
+        </h6>
+      </div>
+  
+      <!-- Nosotros -->
+      <div class="col-md-2">
+        <h6>
+          <a href="/nosotros.html" class="linkFooter">Nosotros</a>
+        </h6>
+      </div>
+  
+  
+      </div>
+  
     </div>
-
-    <div class="eviteExceso">
+  
+    <div class="text-center">
       Evite el exceso
+    </div>
+    <!-- </div> -->
+  
     </div>
   </footer>
 
@@ -178,6 +200,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
 crossorigin="anonymous"></script>
+<!--conexion js-->
+<script src="./Assets/Js/cart.js"> </script>
+ <!--llamado sweetaler2 de js-->
+ <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <script src="/Assets/Js/main.js"></script>
 </body>
 
 </html>

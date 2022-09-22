@@ -21,28 +21,38 @@
 
 
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto Flex';
 }
+
+
+
 
 .row{
     display: flex;
     justify-content:center;
     
 }
-#kali{
-    margin-top: 75px;
-    margin-bottom: 50px;
-}
+/* #kali{
+    width: 50%;
+    height: auto;
+} */
 #copado{
-    margin-top: 75px;
-    margin-bottom: 50px;
+    width: 50%;
+    height: auto;
 }
 #fractal{
-    margin-top: 75px;
-    margin-bottom: 50px;
+    width: 50%;
+    height: auto;
 }
 
+#productores{
+    justify-content: center;
+    text-align: justify;
+}
 
+#textprod{
+    padding: 5%;
+}
 
 /* FOOTER */
 
@@ -55,6 +65,7 @@ body{
 footer{
     background-color: #FFA930;
     padding: 10px;
+    text-align: center;
 }
 
 .footerTexto{
@@ -74,3 +85,7 @@ footer{
     color: #640002;
 }
 
+/*color de numero de carrito*/
+#contador{
+    color: #000;
+}

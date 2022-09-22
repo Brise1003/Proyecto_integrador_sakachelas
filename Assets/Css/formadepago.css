@@ -1,0 +1,286 @@
+
+body{
+    background-image: url(/Assets/Img/fondo.jpeg);
+    font-family: 'Roboto Flex';
+}
+
+.bg{
+    background-image: url(/Assets/Img/colCerveza.png);
+  }
+#colo {
+    background: #FDF6DB;
+    }
+#logoHome{
+   width: 150px;
+}
+#encabezadoLogo{
+    width: 450px;
+}
+#loginIcon{
+    width: 48px;
+}
+#cartIcon{
+    width: 48px;
+}
+
+.navbar{
+    background-color: #FFA931;
+    font-weight: bold;
+	color: #640002;
+}
+
+/* FOOTER */
+
+.footerRedesSociales{
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+	color: #640002;
+}
+
+footer{
+    background-color: #FFA930;
+    padding: 10px;
+    color: #640002;
+    font-weight: bold;
+    text-align: center;
+}
+
+.linkFooter{
+	color: #640002;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #000000;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #000000;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #000000;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+
+/*---------------------validation-------------------------*/
+
+.formulario__validacion-estado {
+	
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 800px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+
+	.formulario__grupo-terminos, 
+	.formulario__mensaje,
+	.formulario__grupo-btn-enviar {
+		grid-column: 1;
+	}
+
+	.formulario__btn {
+		width: 100%;
+	}
+}
+
+.formulario__input {
+	width: 100%;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+.formulario__input:focus {
+	border: 3px solid #0075FF;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.formulario__input-error {
+	font-size: 12px;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
+}
+
+/*color de numero de carrito*/
+#contador{
+    color: #000;
+}
+
+/*  Month and year*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form span{
+    display: block;
+    margin: 20px 0;
+}
+/*make form styling consistent across browsers*/
+button, input, select, textarea {
+    font-size: 100%;
+  }
+
+#tarjetaImg{
+    max-width: 40%;
+    height: auto;
+}
+
+#logotarjetas{
+	max-width: 40%;
+	height: auto;
+}
+/******************Carrito*********************/
+/******************Carrito*********************/
+/* CARRITO */
+
+.container-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-products ion-icon {
+    font-size: 20px;
+    color: #190974;
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.product-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid black;
+    margin: 0 auto;
+    background-color: #FFA931;
+    border-radius: 10px;
+    color: #640002;
+    font-weight: bold;
+}
+
+.product-title {
+    width: 45%;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+
+.price {
+    width: 15%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+.quantity {
+    width: 25%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+}
+
+.total {
+    width: 15%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.product ion-icon {
+    cursor: pointer;    
+}
+
+.products {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: 100px;
+    margin: 15px;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.basketTotalTitle {
+    width: 80%;
+    text-align: center;
+    background-color: #190974;
+    border-radius: 10px;
+    color: #FDF6DB;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.basketTotal {
+    width: 20%;
+    text-align: right;
+    margin: 10px;
+}
+
+@media(max-width: 500px) {
+    nav h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;;
+    }
+
+    .sm-hide {
+        display: none;;
+    }
+
+    .products,
+    .product-header {
+        justify-content: space-around;
+    }
+
+    .basketTotalContainer {
+        padding-right: 8%;
+    }
+}

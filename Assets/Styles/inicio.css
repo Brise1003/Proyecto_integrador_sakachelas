@@ -21,35 +21,35 @@
 
 
 body{
-    font-family: 'Roboto';
+    background-image: url(/Assets/Img/fondo.jpeg);
+    font-family: 'Roboto Flex';
 }
+
 
 /* FOOTER */
 
 .footerRedesSociales{
-    color: #640002;
     text-align: left;
     padding: 10px;
+    font-weight: bold;
+	color: #640002;
 }
 
 footer{
     background-color: #FFA930;
     padding: 10px;
-}
-
-.footerTexto{
-    text-align: center;
     color: #640002;
-    font-weight: bolder;
-    padding: 10px;
-}
-
-.eviteExceso{
-    color: #640002;
-    font-weight: bolder;
+    font-weight: bold;
     text-align: center;
+	
 }
 
 .linkFooter{
-    color: #640002;
+	color: #640002;
+}
+
+/* FOOTER */
+/*color de numero de carrito*/
+#contador{
+    color: #000;
 }
