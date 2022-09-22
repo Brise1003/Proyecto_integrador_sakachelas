@@ -147,4 +147,8 @@ button, input, select, textarea {
     height: auto;
 }
 
+#logotarjetas{
+	max-width: 40%;
+	height: auto;
+}
 /******************Carrito*********************/

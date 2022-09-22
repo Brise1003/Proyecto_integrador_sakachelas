@@ -88,8 +88,12 @@
         <div class="text-black align-content-center">
           <img src="/Assets/Img/logo.png" width="100px" alt="">
         </div>
-
-        <h2 class="fw-bold text-center py-5">Pago con tarjeta</h2>
+        <center>
+        <h2 class="fw-bold text-center py-5">Pago con tarjeta
+          <img src="/Assets/Img/logostarjetas.png" id="logotarjetas">
+        </h2>
+        
+      </center>
         <!--Inputs-------->
         <form class="formulario" id="formulario" action="#">
 
@@ -181,7 +185,7 @@
       </div>
       <center>
         <div class="my-2 p-1">
-          <button type="submit" class="btn btn-outline-dark">Realizar Pago</button>
+          <button type="submit" class="btn btn-outline-dark" onclick="pago()">Realizar Pago</button>
         </div>
       </center>
       </div>
@@ -199,7 +203,7 @@
   <footer>
     <!-- Tel, correo y redes sociales -->
     <!-- <div class="container-fluid"> -->
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
 
         <!-- Redes sociales -->
@@ -272,7 +276,6 @@
   <!--swal-->
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="/Assets/Js/main.js"></script>
-
 </body>
 
 </html>

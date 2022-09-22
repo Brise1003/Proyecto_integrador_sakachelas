@@ -83,3 +83,14 @@ function aviso() {
   })
 }
 
+function pago(){
+  Swal.fire({
+      icon: 'success',
+      title: 'Pago realizado con éxito.',
+      showConfirmButton: false,
+      timer: 1500
+    })
+}
+   
+
+
