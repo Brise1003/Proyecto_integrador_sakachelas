@@ -130,7 +130,7 @@
 
 
 body{
-    background-image: url('./Assets/Img/fondo.jpeg');
+    background-image: url('/Assets/Img/fondo.jpeg');
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto Flex';
@@ -176,10 +176,15 @@ body{
     font-weight: bold;
 }
 
+body{
+    font-family: 'Roboto Flex';
+}
+
+
 /* FOOTER */
 
 .footerRedesSociales{
-    font-family: 'Roboto';
+    font-family: 'Roboto Flex';
     color: #640002;
     text-align: left;
     padding: 10px;
@@ -188,18 +193,22 @@ body{
 footer{
     background-color: #FFA930;
     padding: 10px;
+    color: #640002;
+    font-weight: bold;
+    text-align: center;
+	
 }
 
 .footerTexto{
     text-align: c;
-    font-family: 'Roboto';
+    font-family: 'Roboto Flex';
     color: #640002;
     font-weight: bolder;
     padding: 10px;
 }
 
 .eviteExceso{
-    font-family: 'Roboto';
+    font-family: 'Roboto Flex';
     color: #640002;
     font-weight: bolder;
     text-align: center;
@@ -207,7 +216,7 @@ footer{
 
 .linkFooter{
     color: #640002;
-    font-family: 'Roboto';
+    font-family: 'Roboto Flex';
 } 
 
 .card-text{

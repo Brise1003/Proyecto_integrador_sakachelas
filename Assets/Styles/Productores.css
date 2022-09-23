@@ -57,32 +57,23 @@ body{
 /* FOOTER */
 
 .footerRedesSociales{
-    color: #640002;
     text-align: left;
     padding: 10px;
+    font-weight: bold;
+	color: #640002;
 }
 
 footer{
     background-color: #FFA930;
     padding: 10px;
-    text-align: center;
-}
-
-.footerTexto{
-    text-align: center;
     color: #640002;
-    font-weight: bolder;
-    padding: 10px;
-}
-
-.eviteExceso{
-    color: #640002;
-    font-weight: bolder;
+    font-weight: bold;
     text-align: center;
+	
 }
 
 .linkFooter{
-    color: #640002;
+	color: #640002;
 }
 
 /*color de numero de carrito*/
