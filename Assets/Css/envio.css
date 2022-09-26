@@ -1,27 +1,33 @@
 
-
 body{
     background-image: url(/Assets/Img/fondo.jpeg);
     font-family: 'Roboto Flex', sans-serif;
 }
 
-.bg{
-  background-image: url(/Assets/Img/colCerveza.png);
+h5{
+    font-weight: bold;
 }
+.dir{
+    margin-top: 10px;
+}
+
+/* input{
+    margin-bottom: 10px;
+} */
+
+.bg{
+    background-image: url(/Assets/Img/colCerveza.png);
+  }
 #colo {
     background: #FDF6DB;
     }
-
 #logoHome{
    width: 150px;
 }
-
 #encabezadoLogo{
     width: 450px;
-   
 }
 #loginIcon{
- 
     width: 48px;
 }
 #cartIcon{
@@ -48,10 +54,7 @@ footer{
     padding: 10px;
     color: #640002;
     font-weight: bold;
-<<<<<<< HEAD
-=======
 	text-align: center;
->>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .linkFooter{
@@ -87,22 +90,6 @@ footer{
 	opacity: 0;
 }
 
-/* ----- -----  Mediaqueries ----- ----- */
-@media screen and (max-width: 800px) {
-	.formulario {
-		grid-template-columns: 1fr;
-	}
-
-	.formulario__grupo-terminos, 
-	.formulario__mensaje,
-	.formulario__grupo-btn-enviar {
-		grid-column: 1;
-	}
-
-	.formulario__btn {
-		width: 100%;
-	}
-}
 
 .formulario__input {
 	width: 100%;
@@ -122,11 +109,13 @@ footer{
 
 .formulario__input-error {
 	font-size: 12px;
-	display: none;
+    padding-top: 3px;
+    padding-left: 10px;
+	color: transparent;
 }
 
 .formulario__input-error-activo {
-	display: block;
+	color:#000000;
 }
 
 /*color de numero de carrito*/

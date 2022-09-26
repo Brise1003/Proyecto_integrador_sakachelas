@@ -68,13 +68,25 @@
 #Contactame{
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     font-family: 'Roboto';
+=======
+    font-family: 'Roboto Flex';
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
     color: black;
 }
 
 body{
     background-image: url(/Assets/Img/fondo.jpg); 
     padding: 0;
+<<<<<<< HEAD
+=======
+    font-family: 'Roboto Flex';
+}
+
+.card-img-top{
+    border-radius: 5px;
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .acercaSakaChelas{
@@ -84,13 +96,21 @@ body{
     font-size: 45px;
     padding: 15px;
     text-align: center;
+<<<<<<< HEAD
     font-family: 'Roboto';
+=======
+    font-family: 'Roboto Flex';
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 
 }
 
 .textoAcerca{
     text-align: center;
+<<<<<<< HEAD
     font-family: 'Roboto';
+=======
+    font-family: 'Roboto Flex';
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .acercaDuffTeam{
@@ -100,7 +120,11 @@ body{
     font-size: 45px;
     padding: 15px;
     text-align: center;
+<<<<<<< HEAD
     font-family: 'Roboto';
+=======
+    font-family: 'Roboto Flex';
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .row {
@@ -111,11 +135,19 @@ body{
 #titulosAcerca{
     font-weight: bolder;
     text-align: center;
+<<<<<<< HEAD
     font-family: 'Roboto';
 }
 
 .card-body{
     font-family: 'Roboto';
+=======
+    font-family: 'Roboto Flex';
+}
+
+.card-body{
+    font-family: 'Roboto Flex';
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
     background-color: #FDF6DB;
     margin: 10px;
     border-radius: 20px;
@@ -130,6 +162,7 @@ body{
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -138,6 +171,8 @@ body{
 
 
 
+=======
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 /* HEADER */
 #navTexto{
     color: #640002;
@@ -166,6 +201,7 @@ body{
 .navbar{
     background-color: #FFA931;
     font-weight: bold;
+<<<<<<< HEAD
 }
 
 body{
@@ -179,6 +215,11 @@ body{
 
 
 
+=======
+	color: #640002;
+}
+
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 
 
 /* FOOTER */
@@ -196,6 +237,10 @@ footer{
     padding: 10px;
     color: #640002;
     font-weight: bold;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .linkFooter{

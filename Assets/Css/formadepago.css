@@ -1,7 +1,11 @@
 
 body{
     background-image: url(/Assets/Img/fondo.jpeg);
+<<<<<<< HEAD
     font-family: 'Roboto Flex', sans-serif;
+=======
+    font-family: 'Roboto Flex';
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .bg{
@@ -43,6 +47,10 @@ footer{
     padding: 10px;
     color: #640002;
     font-weight: bold;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .linkFooter{
@@ -143,7 +151,11 @@ button, input, select, textarea {
   }
 
 #tarjetaImg{
+<<<<<<< HEAD
     max-width: 100%;
+=======
+    max-width: 40%;
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
     height: auto;
 }
 

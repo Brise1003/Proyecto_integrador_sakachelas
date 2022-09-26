@@ -7,14 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sakáchelas</title>
 
-  <link rel="stylesheet" href="Assets/Styles/Productores.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+ 
 
   <!-- Link de CDN para Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="Assets/Styles/Productores.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
 
   <style>
     body {
@@ -81,36 +83,29 @@
   <br>
   <br>
 <!-- PRODUCTORES -->
-<div class="container-fluid text-center">
+<div class="container-fluid text-center" id="productores">
   <h1>NUESTROS PRODUCTORES</h1>
   <br>
-  <div class="row">
-    <div class="col-8" id="kali">
+    <div class="col">
       <img src="/Assets/Img/KALIBREWS 1.png">
-      <br>
-      <br>
-      <br>
-      <h3>
-        La casa KALI BREWS nace por el deseo de aportar nuevos matices al paladar del mercado mexicano aportando lo mejor de lúpulos, maltas internacionales y/o regionales así como adjuntos propios de la región... como lo son el cacao de nuestra stout, la miel de nuestra pale ale así como los dulces tradicionales de café en nuestra brown ale, obteniendo mezclas únicas de una calidad excepcional específicamente diseñadas para ser una caricia al gusto.
+
+      <h3 id="textprod">
+        La casa KALI BREWS nace por el deseo de aportar nuevos matices al paladar del mercado mexicano aportando lo mejor de lúpulos, maltas internacionales y/o regionales, así como adjuntos propios de la región... como lo son el cacao de nuestra stout, la miel de nuestra pale ale así como los dulces tradicionales de café en nuestra Brown Ale, obteniendo mezclas únicas de una calidad excepcional específicamente diseñadas para ser una caricia al gusto.
       </h3>
     </div>
 
-    <div class="col-8" id="copado">
+    <div class="col">
       <img src="/Assets/Img/COPADO 1.png">
-      <br>
-      <br>
-      <br>
-      <h3>
+ 
+      <h3 id="textprod">
         Cervecería pionera en la revolución cervecera mexicana. Con su slogan: "La cerveza nos une". Ha creado cervezas de autor, procesadas de manera artesana con insumos naturales, que dan como resultado 5 exquisitos estilos. Café, cacao, vainilla o frutas son los elementos que Copado le ha añadido como un toque distintivo a las cervezas, cuya producción compara con una receta de cocina.
       </h3>
     </div>
 
-    <div class="col-8" id="fractal">
+    <div class="col">
       <img src="/Assets/Img/FRACTAL 2.png">
-      <br>
-      <br>
-      <br>
-      <h3>
+
+      <h3 id="textprod">
         En Fractal, nos inspiró el crear desde cero una marca y poder hacer algo distinto a lo que se conoce dentro de la industria, retarnos a hacer las cosas diferentes y la pasión que tenemos es algo que nos diferencia del resto.
       </h3>
     </div>
@@ -130,6 +125,7 @@
   <footer>
 
     <!-- Tel, correo y redes sociales -->
+<<<<<<< HEAD
     <div class="container">
       <div class="row">
 
@@ -145,10 +141,26 @@
                 alt="logotipo de Instagram" height="30px"></a>
             <a href="https://twitter.com/?lang=es" target="_blank"><img src="./Assets/Img/icono-tw.png"
                 alt="logotipo de twitter" height="30px"></a>
+=======
+    <!-- <div class="container-fluid"> -->
+    <div class="container">
+      <div class="row">
+  
+        <!-- Redes sociales -->
+        <div class="col-md-2">
+          <div class="footerRedesSociales">
+              <h6> Tel: +52 55 55 55 55 </h6>
+              <h6> Correo: correo@outlook.com </h6>
+              <h6> Redes sociales </h6>
+              <a href="https://www.facebook.com/" target="_blank"><img src="Assets/Img/icono-fc.png" alt="logotipo de Facebook" height="30px"></a>
+              <a href="https://www.instagram.com/" target="_blank"><img src="Assets/Img/icono-ig.webp" alt="logotipo de Instagram" height="30px"></a>
+              <a href="https://twitter.com/?lang=es" target="_blank"><img src="Assets/Img/icono-tw.png" alt="logotipo de twitter" height="30px"></a>
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
           </div>
         </div>
-
+  
         <!-- Aviso de privacidad -->
+<<<<<<< HEAD
         <div class="col-md-2">
           <h6>
             <a onclick="aviso()" class="linkFooter">Aviso de privacidad</a>
@@ -187,6 +199,46 @@
     </div>
     <!-- cierre de container-fluid -->
 
+=======
+      <div class="col-md-3">
+        <h6>
+          <a onclick="aviso()" class="linkFooter">Aviso de privacidad</a>
+        </h6>
+      </div>
+  
+        <!-- Terminos y condiciones -->
+        <div class="col-md-3">
+          <h6>
+            <a href="/termycond.html" class="linkFooter">Términos y condiciones</a>
+          </h6>
+        </div>
+  
+      <!-- Contacto -->
+      <div class="col-md-2">
+        <h6>
+          <a href="/Contactonew.html" class="linkFooter">Contacto</a>
+        </h6>
+      </div>
+  
+      <!-- Nosotros -->
+      <div class="col-md-2">
+        <h6>
+          <a href="/nosotros.html" class="linkFooter">Nosotros</a>
+        </h6>
+      </div>
+  
+  
+      </div>
+  
+    </div>
+  
+    <div class="text-center">
+      Evite el exceso
+    </div>
+    <!-- </div> -->
+  
+    </div>
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
   </footer>
 
 

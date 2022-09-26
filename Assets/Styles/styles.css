@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap");
 
 *{
@@ -23,6 +24,8 @@
     color: #640002;
 }
 /* Termina Color NavBar */
+=======
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 
 
 #colo {
@@ -52,7 +55,12 @@
 }
 
 body{
+<<<<<<< HEAD
     font-family: 'Roboto Flex', sans-serif;
+=======
+    font-family: 'Roboto Flex';
+    background: url(/assets/img/fondoProyecto.jpg);
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 
@@ -72,6 +80,10 @@ footer{
     padding: 10px;
     color: #640002;
     font-weight: bold;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .linkFooter{
@@ -82,12 +94,19 @@ footer{
 .contacto{
     position: relative;
     min-height: 100vh;
+<<<<<<< HEAD
     padding: 50px, 100px;
+=======
+    /* padding: 50px, 100px; */
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+<<<<<<< HEAD
     background: url(/assets/img/fondoProyecto.jpg);
+=======
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
     background-size: cover;
 }
 
@@ -110,22 +129,38 @@ footer{
 
 .container{
     width: 100%;
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+=======
+    /* display:flex; */
+    justify-content: center;
+    align-items: center;
+
+    /* margin-top: 30px; */
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .container .contactInfo{
     width: 50%;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .container .contactInfo .box{
     position: relative;
     padding: 20px 0;
     display: flex;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .container .contactInfo .box .icon{
@@ -137,6 +172,11 @@ footer{
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
+<<<<<<< HEAD
+=======
+    text-align: center;
+    
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .container .contactInfo .box .text{
@@ -151,13 +191,21 @@ footer{
 .container .contactInfo .box .text h3{
     font-weight: 500;
     color: #000;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .contactForm{
     width: 40%;
     padding: 40px;
     background: #ffffff;
+<<<<<<< HEAD
     border-radius: 0%;
+=======
+    border-radius: 10px;
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .contactForm h2{
@@ -217,9 +265,15 @@ footer{
     .contact{
         padding: 50px;
     }
+<<<<<<< HEAD
     .container{
         flex-direction: column;
     }
+=======
+    /* .container{
+        flex-direction: column;
+    } */
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
     .container .contactInfo{
         margin-bottom: 40px;
     }

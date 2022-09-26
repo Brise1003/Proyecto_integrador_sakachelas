@@ -130,7 +130,11 @@
 
 
 body{
+<<<<<<< HEAD
     background-image: url('./Assets/Img/fondo.jpeg');
+=======
+    background-image: url('/Assets/Img/fondo.jpeg');
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto Flex';
@@ -177,19 +181,27 @@ body{
 }
 
 body{
+<<<<<<< HEAD
     font-family: 'Roboto Flex', sans-serif;
 }
 
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     
+=======
+    font-family: 'Roboto Flex';
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 
 /* FOOTER */
 
 .footerRedesSociales{
+<<<<<<< HEAD
     font-family: 'Roboto';
+=======
+    font-family: 'Roboto Flex';
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
     color: #640002;
     text-align: left;
     padding: 10px;
@@ -198,18 +210,33 @@ body{
 footer{
     background-color: #FFA930;
     padding: 10px;
+<<<<<<< HEAD
+=======
+    color: #640002;
+    font-weight: bold;
+    text-align: center;
+	
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 }
 
 .footerTexto{
     text-align: c;
+<<<<<<< HEAD
     font-family: 'Roboto';
+=======
+    font-family: 'Roboto Flex';
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
     color: #640002;
     font-weight: bolder;
     padding: 10px;
 }
 
 .eviteExceso{
+<<<<<<< HEAD
     font-family: 'Roboto';
+=======
+    font-family: 'Roboto Flex';
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
     color: #640002;
     font-weight: bolder;
     text-align: center;
@@ -217,7 +244,11 @@ footer{
 
 .linkFooter{
     color: #640002;
+<<<<<<< HEAD
     font-family: 'Roboto';
+=======
+    font-family: 'Roboto Flex';
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
 } 
 
 .card-text{
