@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/Assets/Img/logo.png">
+    <title>Carrito Prueba</title>
+
+    <!-- Vinculo para Bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+   
+
+    <!-- Vinculo para Roboto  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+
+    <!-- Vinculo a iconos -->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+
+    <!-- Vinculo a CSS -->
+    <link rel="stylesheet" href="./Assets/Css/cart.css">
+
+</head>
+<body>
+<!------------------------------------------------------
+                       Encabezado
+-------------------------------------------------------->
+
+<nav class="navbar p-3" id="colo">
+  <div class="container">
+    <a class="navbar-item" href="/Principal.html">
+      <img src="/Assets/Img/logo.png" alt="" width="70" height="60">
+    </a>
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <a class="navbar-item">
+          <img src="/Assets/Img/ribbon.png" alt="" width="200" height="80">
+        </a>
+      </div> 
+    <div class="ms-auto">
+      <a class="navbar-item" href="/Login.html">
+        <img src="/Assets/Img/iconUser.png" alt="" width="30" height="30">
+      </a>
+      <a class="cart" href="/cart.html">
+        <img src="/Assets/Img/cart.png" alt="" width="30" height="30"><span
+        class="position-absolute top-25 end-175 translate-middle" id="contador">0</span>
+      </a>
+    </div>
+  </div>
+</nav>
+  
+  
+  <!------------------------------------------------------
+                  NavBar
+  -------------------------------------------------------->
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="nav-link" id="cervezasNavBar" href="./catálogo.html" style="color: #640002">CERVEZAS</a>
+      <form class="d-flex d-lg-block col-sm-5 col-md-5 col-lg-5 ms-lg-5" role="search">
+        <input class="form-control" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+      </form>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/Productores.html" style="color: #640002">PRODUCTORES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/nosotros.html" style="color: #640002">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Contactonew.html" style="color: #640002">CONTACTANOS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--navbar ends-->
+  <br>
+  <br>
+
+ 
+
+  <!-- Inicia carrito -->
+  <div class="container-products">
+    <div class="product-header">
+        <h5 class="product-title" id="carText">Producto</h5>
+        <h5 class="price" id="carText">Precio</h5>
+        <h5 class="quantity sm-hide" id="carText">Cantidad</h5>
+        <h5 class="total" id="carText">Total</h5>
+    </div>
+
+    <!-- Div vacio para productos -->
+    <div class="products">
+
+    </div>
+  
+  </div>
+  <br>
+  <br>
+  <br>
+  <!-- Termina carrito -->
+  <center>
+    <div class="my-2 p-1">
+        <a href="/envio.html"><button type="button" class="btn btn-outline-dark">Dirección de envio</button></a>
+    </div>
+</center>
+
+
+
+<!------------------------------------------------------
+                  FOOTER
+-------------------------------------------------------->
+
+<footer>
+  <!-- Tel, correo y redes sociales -->
+  <!-- <div class="container-fluid"> -->
+  <div class="container">
+    <div class="row">
+
+      <!-- Redes sociales -->
+      <div class="col-md-2">
+        <div class="footerRedesSociales">
+            <h6> Tel: +52 55 55 55 55 </h6>
+            <h6> Correo: correo@outlook.com </h6>
+            <h6> Redes sociales </h6>
+            <a href="https://www.facebook.com/" target="_blank"><img src="Assets/Img/icono-fc.png" alt="logotipo de Facebook" height="30px"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="Assets/Img/icono-ig.webp" alt="logotipo de Instagram" height="30px"></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"><img src="Assets/Img/icono-tw.png" alt="logotipo de twitter" height="30px"></a>
+        </div>
+      </div>
+
+      <!-- Aviso de privacidad -->
+    <div class="col-md-3">
+      <h6>
+        <a onclick="aviso()" class="linkFooter">Aviso de privacidad</a>
+      </h6>
+    </div>
+
+      <!-- Terminos y condiciones -->
+      <div class="col-md-3">
+        <h6>
+          <a href="/termycond.html" class="linkFooter">Términos y condiciones</a>
+        </h6>
+      </div>
+
+    <!-- Contacto -->
+    <div class="col-md-2">
+      <h6>
+        <a href="/Contactonew.html" class="linkFooter">Contacto</a>
+      </h6>
+    </div>
+
+    <!-- Nosotros -->
+    <div class="col-md-2">
+      <h6>
+        <a href="/nosotros.html" class="linkFooter">Nosotros</a>
+      </h6>
+    </div>
+
+
+    </div>
+
+  </div>
+
+  <div class="text-center">
+    Evite el exceso
+  </div>
+  <!-- </div> -->
+
+  </div>
+</footer>
+
+    <!-- Vinculo a cart.js -->
+    <script src="./Assets/Js/cart.js"></script>
+    
+    <!-- Vinculo a Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+      
+    <!-- Vinculo a iconos -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!--llamado sweetaler2 de js-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/Assets/Js/main.js"></script>
+
+</body>
+</html>

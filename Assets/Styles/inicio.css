@@ -1,0 +1,72 @@
+#colo {
+    background: #FDF6DB;
+    }
+#logoHome{
+   width: 150px;
+}
+#encabezadoLogo{
+    width: 450px;
+}
+#loginIcon{
+    width: 48px;
+}
+#cartIcon{
+    width: 48px;
+}
+.navbar{
+    background-color: #FFA931;
+    font-weight: bolder;
+    
+}
+
+
+body{
+    background-image: url(/Assets/Img/fondo.jpeg);
+<<<<<<< HEAD
+    font-family: 'Roboto Flex', sans-serif;
+=======
+    font-family: 'Roboto Flex';
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
+}
+
+
+/* FOOTER */
+
+.footerRedesSociales{
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+<<<<<<< HEAD
+    color: #640002;
+=======
+	color: #640002;
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
+}
+
+footer{
+    background-color: #FFA930;
+    padding: 10px;
+    color: #640002;
+    font-weight: bold;
+<<<<<<< HEAD
+=======
+    text-align: center;
+	
+>>>>>>> ccfea07f5b97e22b161f35514d356af0ebe84f70
+}
+
+.linkFooter{
+	color: #640002;
+}
+
+/* FOOTER */
+/*color de numero de carrito*/
+#contador{
+    color: #000;
+}
+
+/* FOOTER */
+/*color de numero de carrito*/
+#contador{
+    color: #000;
+}

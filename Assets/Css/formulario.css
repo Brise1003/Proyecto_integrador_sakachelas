@@ -1,0 +1,227 @@
+/* NavBar y Encabezado */
+
+#colo {
+    background: #FDF6DB;
+    }
+
+#logoHome{
+   width: 150px;
+}
+
+#encabezadoLogo{
+    width: 450px;
+   
+}
+#loginIcon{
+ 
+    width: 48px;
+}
+#cartIcon{
+    width: 48px;
+}
+
+.navbar{
+    background-color: #FFA931;
+    font-weight: bold;
+    color: #640002;
+}
+
+
+/* FORMULARIO */
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.form__label{
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form__group-input{
+    position: relative;
+}
+
+.form__input{
+    width: 100%;
+    background-color: #FDF6DB;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all;
+}
+
+.form__input:focus{
+    border: 3px solid #FFA930;
+    outline: none;
+    box-shadow: 3px 0 30px rgba(163, 163, 163, 0.4);
+}
+
+.form__input-error{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    display: none;
+}
+
+.form__input-error-activo{
+    display: block;
+}
+
+.form__validacion-estado{
+    position: absolute;
+    right: 10px;
+    bottom: 7px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.form__checkbox{
+    margin-right: 10px;
+}
+
+.form__mensaje{
+    height: 40px;
+    line-height: 40px;
+    background-color: #f66060;
+    padding: 0 15px;
+    border-radius: 3px;
+    display: none;
+}
+
+.form__mensaje-activo{
+    display: block;
+}
+
+/* ------------------ */
+.form__mensaje p{
+    margin: 0;
+}
+/* ------------------ */
+
+.form__group-btn-enviar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__btn{
+    height: 40px;
+    line-height: 40px;
+    width: 30%;
+    background-color: #008037;
+    color: #640002;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+
+.form__btn:hover{
+    box-shadow: 3px 0 30px rgba(163, 163, 163, 1);
+}
+
+.form__mensaje-exito{
+    font-size: 14px;
+    color: #119200;
+    display: none;
+}
+
+.form__mensaje-exito-activo{
+    display: block;
+}
+
+/*-----------Estilos para validaciones-----------------  */
+
+.form__group-correcto .form__validacion-estado{
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.form__group-incorrecto .form__label{
+    color: #bb2929;
+}
+
+.form__group-incorrecto .form__validacion-estado{
+    color: #bb2929;
+    opacity: 1;
+}
+
+.form__group-incorrecto .form__input{
+    border: 3px solid #bb2929;
+}
+
+
+
+
+
+
+
+
+
+
+#contenedorForm {
+    /* display: flex;  */
+    
+   
+    /* background-color: whitesmoke; */
+    height: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    /* border-style: groove;
+    border-color: gray;
+    border-width: 2px;
+    border-top: solid 1px;  */
+}
+
+
+body{
+    background-image: url(/Assets/Img/fondo\ dif.jfif);
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+#titulo{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+/* ------------- Mediaqueries-------------------- */
+
+/*color de numero de carrito*/
+#contador{
+    color: #000;
+}
+
+/* FOOTER */
+
+.footerRedesSociales{
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+	color: #640002;
+}
+
+footer{
+    background-color: #FFA930;
+    padding: 10px;
+    color: #640002;
+    font-weight: bold;
+}
+
+.linkFooter{
+	color: #640002;
+}
+
+.eviteExceso{
+    text-align: center;
+}
